@@ -1623,7 +1623,7 @@ footer{
     
     .logo{
         width: 160px;
-
+        height: auto;
         margin-left: 1.5em;
     }
     
@@ -1845,7 +1845,6 @@ footer{
     .txtMobile{
         display: block;
         width: 100%;
-        height: fit-content;
     }
     
     .camionMobile{
