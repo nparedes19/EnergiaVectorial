@@ -1472,7 +1472,7 @@ footer{
 
 .iconCarga{
     width: 8em;
-    height: fit-content;
+    height: auto;
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
@@ -1739,7 +1739,7 @@ footer{
     /*footer*/
 
     footer{
-        height: 40em;
+        height: 35em;
     }
     
     .iconoEV{
@@ -1853,7 +1853,7 @@ footer{
     .camionMobile{
         display: block;
         width: 100%;
-        height: fit-content;
+        height: auto;
         margin-top: 2em;
     }
     
@@ -1976,6 +1976,8 @@ footer{
     #busMobile{
         display: block;
         margin-top: 2em;
+        width: 100%;
+        height: auto;
     }
 
     .container{
@@ -2467,11 +2469,12 @@ footer{
 
     .mujerMobile img{
         width: 100%;
+        height: auto;
     }
 
     #evMobile{
         width: 200px;
-        height: fit-content;
+        height: auto;
         display: flex;
         margin-left: auto;
         margin-right: auto;
@@ -2526,6 +2529,7 @@ footer{
 
     .mCargadorMobile{
         width: 100%;
+        height: auto;
     }
 
     .milla{
@@ -2624,6 +2628,7 @@ footer{
 
     .iconBene{
         width: 230px;
+        height: auto;
     }
 
     #tInsta{
@@ -2636,6 +2641,7 @@ footer{
 
     /*super carros*/
 
+    
     #filaKit p{
         font-family: 'Space Grotesk', sans-serif;
         background-color: white;
@@ -2670,6 +2676,8 @@ footer{
 
     #cooperMobile{
         display: block;
+        width: 100%;
+        height: auto;
     }
 
     .boxTable{
@@ -2758,7 +2766,7 @@ footer{
 
     #escaMobile{
         width: 100%;
-        height: fit-content ;
+        height: auto ;
     }
 
     .txtCon{
@@ -2793,6 +2801,8 @@ footer{
 
     #escarabajoMobile{
         display: block;
+        width: 100%;
+        height: auto;
     }
 
     #escarabajoEscritorio{
