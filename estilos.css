@@ -1645,7 +1645,7 @@ footer{
     .bateriaMobile{
         display: block;
         width: 100%;
-        height: fit-content;
+        height: auto;
         margin-top: 2em;
     }
     
@@ -1675,7 +1675,7 @@ footer{
     
     .bateria{
         width: 100%;
-        height: fit-content;
+        height: auto;
     }
     
     .tituloTaller{
@@ -2189,7 +2189,7 @@ footer{
     .imagenBMWMobile{
         display: block;
         width: 100%;
-
+        height: auto;
     }
 
     .imagenBMW{
@@ -2382,6 +2382,10 @@ footer{
 
     /*servicios*/
 
+    .contenedorServ a{
+        text-decoration-color:none;
+    }
+
     .serviciosMobile{
         display: block;
         background-color: #f2f2f2;
@@ -2391,7 +2395,7 @@ footer{
 
     .imagenServicios{
         width: 87%;
-  
+        height: auto;
     }
 
     .degradado{
