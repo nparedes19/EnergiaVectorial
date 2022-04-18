@@ -1,0 +1,2843 @@
+/*bara de navegación*/
+
+.myButton:hover{
+    color:white;
+}
+
+.myButton2:hover{
+    color:black;
+}
+
+.myButton3:hover{
+    color:white;
+}
+
+.nav-link{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.nav-item{
+    margin-right: 5%;
+}
+
+#lista{
+    width: 100%;
+   display: flex;
+   place-content: center;
+}
+
+#navbarSupportedContent{
+    width: 100%;
+}
+
+.navbar{
+    margin-top: 3em;
+}
+
+.myButton {
+	background-color:#00cc70;
+	border-radius:28px;
+	border:1px solid #00cc70;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+	padding:5px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+    font-weight: bold;
+    height: 50px;
+
+}
+
+.logo{
+    width: 200px;
+    height: fit-content; 
+    margin-left: 59px;
+}
+
+.logo{
+    width: 200px;
+    height: fit-content; 
+    margin-left: 59px;
+}
+
+#navElectrico{
+    width: 200px;
+}
+
+/*main*/
+
+/*home*/
+
+.aliadosMobile{
+    display: none;
+}
+
+.carroMercedesMobile{
+    display: none;
+}
+
+.carroMobile{
+    display: none;
+}
+
+.carroInicio{
+    width: 100%;
+    height: fit-content; 
+ 
+}
+
+.textoDescarbonizamos{
+    display: flex;
+    text-align: center;
+    place-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size:70px;
+}
+
+.divCambio{
+    background-color: #001e00;
+    height: 19em;
+}
+
+#gridCambio{
+    width: 100%;
+    padding-top: 3em;
+   
+}
+
+
+
+.tituloCambio{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size:70px;
+    margin-left: -0.3em;
+    color: white;
+}
+
+#btnCambioHome{
+    margin-left: 16.7em;
+}
+
+.pCambio{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+#textoReduce{
+    font-size: 80px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: -0.4em;
+    margin-top: -0.5em;
+    width: 400px;
+}
+
+#textoHuella{
+    width: 500px;
+}
+
+#año{
+    margin-top: -1.5em;
+    margin-left: 5em;
+    width: 150px;
+}
+
+#containerTon{
+    margin-left: 1em;
+    
+}
+
+#containerSemana{
+    margin-top: -1em;
+    margin-left: -7em;
+   
+}
+
+.myButton2 {
+	background-color:white;
+	border-radius:28px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+    font-family: 'Raleway', sans-serif;
+	font-size:22px;
+	padding:6px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+    font-weight: bold;
+    
+}
+
+.containerCambio h1{
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+#entre{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+#numeros{
+  align-items: center;
+  justify-content: center; 
+  display: flex;
+  font-size: 80px;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-top: -0.5em;
+}
+
+#semana{
+    width: 10em;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: -1.5em;
+}
+
+#siempre{
+    font-size: 17px;
+    width: 30em;
+    margin-top: -1em;
+    margin-left: 0.5em;
+}
+
+#equipos{
+    font-size: 17px;
+    width: 30em;
+    margin-top: -1em;
+    margin-left: 5em;
+}
+
+.pCambio{
+    color: #00cc71
+}
+
+.myButton3 {
+	background-color:#000000;
+	border-radius:28px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+    font-family: 'Raleway', sans-serif;
+	font-size:22px;
+	padding:6px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+    font-weight: bold;
+    height: 50px;
+    margin-left: 1em;
+}
+
+.linea{
+    border-left: solid 4px #00cc71;
+    height: 200px; 
+    width: 1px;
+    margin-left: 5em;
+    
+}
+
+.nuevo{
+    display: flex;
+    background-color: #001e00;
+    place-content: center;
+    height: 15em;
+}
+
+#cambioInicio{
+    font-size: 55px;
+    margin-left: 1em;
+    margin-top: 0.7em;
+    margin-right: 3em;
+    width: 500px;
+}
+
+.nuevoBox{
+   width: 15%;
+   text-align: center;
+   line-height: 110%;
+   margin-top: auto;
+   margin-bottom: auto;
+   margin-right: -10em;
+}
+
+#numeroNuevo{
+    font-size: 80px;
+    margin-top: 10px;
+}
+
+#semanaNuevo{
+    margin-top: 25px;
+    width: 230px;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#entreNuevo{
+    font-size: 20px; 
+}
+
+.cambioNuevo{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2em;
+    width: 15em;
+}
+
+#lineaNueva{
+    margin-left: 6em;
+    margin-right: 0.5em;
+    margin-top: 2.5em;
+    height: 150px;
+}
+
+#siempreNuevo{
+    font-size: 15px; 
+    text-align: right;
+    font-weight: 300;
+    width: 230px;
+    margin-top: -1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divServicios{
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.textoServicios{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+.parrafoServicios{
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1em;
+}
+
+.textoConoce{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size:40px;
+    color: #00cc71;
+}
+
+.carroMercedes{
+    width: 35%;
+    height: fit-content;
+}
+
+#txtSabemos{
+    font-size: 60px;
+}
+
+#txtDisminuimos{
+    line-height: 100%;
+    font-size: 35px;
+    width: 80%;
+
+}
+
+#boxSabemos{
+    width: 65%;
+}
+
+.containerTexto{
+    width: 100%;
+    margin: auto;
+    background-color: #f2f2f2;
+}
+
+.containerBtn{
+    display: flex;
+    text-align: center;
+    place-content: center;
+    justify-content: center;
+}
+
+.divCotiza{
+    display: flex;
+    background-color: #00cc71;
+    place-content: center;
+    margin: auto;
+    height: 6em;
+}
+
+.textoCotiza{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size:3.7em;
+    color: white;
+}
+
+#btnCotiza{
+    height: 50px;
+    border: #ffffff;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1.5em;
+}
+
+.divClientes{
+    background-color: #001e00 ;
+}
+
+.parrafoClientes{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #00cc71;
+    font-size:3.2em;
+    place-content: center;
+    display: flex;
+}
+
+.textoMovilidad{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #00cc71;
+    font-size:3.9em;
+    place-content: center;
+    display: flex;
+    font-weight: bold;
+    margin-top: -0.6em;
+}
+
+.containerTestimonios{
+    display: flex;
+}
+
+.burbujaTexto{
+    width: 7em;
+    height: fit-content;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+.tituloTestimonio{
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    color: white;
+    font-size: 1.5em;
+    place-content: center;
+    display: flex;
+    margin-top: 2em;
+}
+
+.contenidoTestimonio{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    line-height: 100%;
+}
+
+.divTestimonios{
+    width: 100%;
+}
+
+.divClientes{
+    width: 100%;
+    height: 43em;
+}
+
+.logoAliado{
+    height: 10em;
+    width: fit-content;
+}
+
+#textoAliados{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #00cc71;
+    font-size: 2.5em;
+    font-weight: bold;
+    display: flex;
+    margin-top: 25%;
+}
+
+/*footer*/
+
+.boxInput{
+    display: flex;
+}
+
+.divInput{
+    display: flex;
+}
+
+.evMobile{
+    display: none;
+}
+
+.suscribirse{
+    border-radius:28px;
+    height: 45px;
+    width: 400px;
+    margin-left: 4em;
+    margin-right: 1em;
+    text-align: center;
+}
+
+#sub::placeholder{
+    
+    display: flex;
+}
+
+.icono{
+    width: 2.5em;
+    height: fit-content;
+}
+
+.divIcono{
+    display: flex;
+    margin-left: 3.5em;
+    margin-top: 1em;
+}
+
+footer{
+    background-color: #000000;
+    width: 100%;
+}
+
+.textoIcono{
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 25px;
+    margin-left: 1em;
+}
+
+.divRedes{
+    display: flex;
+}
+
+.iconoRedes{
+    width: 6em;
+    height: fit-content;
+}
+
+#linkedin{
+    width: 3em;
+    height: fit-content;
+    margin-left: -1em;
+}
+
+.containerRedes{
+    display: flex;
+    margin-left: 4.5em;
+}
+
+.divFooter{
+    display: flex;
+}
+
+.divInput{
+    padding-top: 2.5em;
+}
+
+#facebook{
+    margin-left: -3em;
+}
+
+#youtube{
+    margin-left: -3em;
+}
+
+#textoFacebook{
+    margin-top: -1em;
+}
+
+#textoTwt{
+    margin-top: -1em;
+}
+
+.redes{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/*sección 100% electrico*/
+
+.bmwMobile{
+    display: none;
+}
+
+.imagenBMWMobile{
+    display: none;
+}
+
+.boxBMW{
+    margin-top: 3em;
+}
+
+.imagenBMW{
+    width: 100%;
+    height: fit-content;
+}
+
+.iconoEcosistema{
+    width: 9em;
+    height: fit-content;
+    display: flex;
+    place-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.parrafoEco{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 320px;
+    font-size: 30px;
+    line-height: 100%;
+    margin-top: 20px;
+}
+
+.boxEco{
+    background-color: #f2f2f2;
+}
+
+#gridEco{
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.teamTitulo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    margin-left:60px;
+    color: white;
+}
+
+.fotoTeam{
+    width: 10em;
+    height: fit-content;
+}
+
+#gridTeam p{
+    font-family: 'Raleway', sans-serif;
+}
+
+#gridTeam{
+    margin-top: 4em;
+}
+
+.nombreTeam{
+    font-weight: bolder;
+    margin-top: 1em;
+    font-size: 25px;
+    color: white;
+}
+
+.cargoTeam{
+    font-weight: bolder;
+    margin-top: -1.3em;
+    font-size: 25px;
+    color: white;
+}
+
+.profesionTeam{
+    margin-top: -1.3em;
+    font-size: 24px;
+    color:white;
+}
+
+.especialidadTeam{
+    margin-top: -1.3em;
+    font-size: 24px;
+    color:white;
+}
+
+.descripcionTeam{
+    margin-top: -1em;
+    font-size: 24px; 
+    color: #00cc71;
+    margin-bottom: 22px;
+    line-height: 100%;
+}
+
+#espacio{
+    line-height: 100%;
+  
+ 
+}
+
+.contactoTeam{
+    font-size: 24px; 
+    color: white;
+}
+
+.divDescripcion{
+    margin-top: 2em;
+}
+
+.boxTeam{
+    background-color: #001e00 ;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#celular{
+    margin-top: -1.2em;  
+}
+
+.boxConoce{
+    display: flex;
+    place-content: center;
+    height: 8em;
+ 
+}
+
+#btnConoce{
+    background-color:#001e00 ;
+	border:1px solid #001e00 ;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.tituloConoce{
+    font-family: 'Space Grotesk', sans-serif;
+    color:#00cc71;
+    font-weight: bold;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.lineaTeam{
+    border-top: solid 2px #00cc71;
+    height: 200px;
+    height: 0;
+    width: 64em;
+    margin-left: 17em;
+    margin-top: -3em;
+}
+
+/*taller*/
+
+.bateriaMobile{
+    display: none;
+}
+
+.pTaller{
+    display: none;
+}
+
+.imgBateria{
+    width: 100%;
+    height: fit-content;
+    margin-top: 3em;
+}
+
+.divEquipo{
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    padding-top: 1em;
+    background-color: #f2f2f2;
+}
+
+.bateria{
+    width: 50%;
+    height: fit-content;
+}
+
+.textoTaller{
+    width: 50%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+  
+}
+
+.tituloTaller{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold; 
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 100%;
+}
+
+.parrafoTaller{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: -0.5em;
+    line-height: 100%;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#taller{
+    width:25em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#baterialMobile{
+    display: none;
+}
+
+.divCita{
+    display: flex;
+    background-color: #00cc71;
+    place-content: center;
+    height: 7em;
+}
+
+.textoCita{
+    font-family: 'Space Grotesk', sans-serif;
+    color:white; 
+    font-size: 45px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#btnCita{
+    height: 50px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2em;
+}
+
+.separador{
+    width: 100%;
+    height: 1em;
+    background-color: #f2f2f2;
+}
+
+/*servicio*/
+
+.serviciosMobile{
+    display: none;
+}
+
+.contenedorServ a{
+    text-decoration: none;
+    
+}
+
+
+.contenedorServ a:visited{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.imagenServicios{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 1.5em;
+}
+
+.txtServicios{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold; 
+    color: white;  
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 500px;
+}
+
+.contenedorServ{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.containerServicios{
+    background-color: #f2f2f2;
+    margin-top: -6em;
+}
+
+.txtConoce{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold; 
+    font-size: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 1000px;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+.inicioServicios{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.boxGrande{
+    display: grid;
+    margin-top: 3em;
+}
+
+.degradado{
+    margin-top: 2.5em;
+}
+
+/*super carros*/
+
+#escaMobile{
+    display: none;
+}
+
+.tablaMobile{
+    display: none;
+}
+
+#cooperMobile{
+    display: none;
+}
+
+#tablaServicios{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 53%;
+    margin-top: 5%; 
+    border-collapse: separate;  
+}
+
+
+.boxTable{
+    background-color: #00cc71;
+    width: 45%;
+    height: 92%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+    text-align: justify;
+   
+}
+
+.imgCarro{
+    width: 100%;
+    height: fit-content;
+}
+
+.primerContainer{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 3em;
+}
+
+.tituloComparativo{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold; 
+    font-size: 300%;
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+   
+}
+
+.tituloTabla{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+}
+
+.fila{
+    font-size: 150%;
+    font-family: 'Raleway', sans-serif; 
+}
+
+#tablaServicios td{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 150%;
+}
+
+#autonomia{
+    width: 0px;
+}
+
+.usd{
+    width: 0px;
+}
+
+.segundoContainer{
+    display: flex;
+}
+
+.boxKit{
+    display: flex;
+   place-content: center;
+}
+
+.containerKit{
+    background-color: #f2f2f2;
+    width: 50%;
+    height: 40em;
+
+}
+
+.number{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: #00cc71;
+    
+}
+
+.tituloKit{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #00cc71;
+    padding-top: 0.8em;
+    display: flex;
+    place-content: center;
+   
+}
+
+
+
+.pSegundo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px; 
+    line-height: 100%;
+    margin-top: 0.5em; 
+    width: 19em; 
+}
+
+.nSegundo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px; 
+    font-weight: bold;
+    margin-top: -1em;
+}
+
+.tituloCon{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;  
+    font-size: 60px;
+    color: white;
+   
+}
+
+.containerCon{
+    background-color: #001e00;
+    width: 50%;
+    display: grid;
+    place-content: center;
+
+}
+
+#pCon{
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 1em ;
+}
+
+#conVerde{
+    color:#00cc71;
+    margin-top: 1em;
+}
+
+#conBlanco{
+    color: white;
+}
+
+#txtCot{
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.imgMedia{
+    width: 50%;
+    height: fit-content;
+}
+
+#tituloVe{
+    width: 80%;
+    color: #00cc71;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#boxVe{
+    background-color: #f2f2f2;
+}
+
+#pVe{
+    width: 80%;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pVe1{
+    width: 80%;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divBene{
+    background-color: #001e00;
+}
+
+.iconBene{
+    width: 20em;
+    height: fit-content;
+}
+
+.pBene{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px; 
+    color: white;
+    text-align: center;
+}
+
+.gridBene img{
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#gridB{
+    padding-bottom: 2.5em;
+}
+
+
+/*ultima milla*/
+
+#nuevoNumero{
+    margin-left: 20em;
+}
+
+#btnMilla{
+    height: 50px;
+    margin-left: -8em;
+    margin-top: 4.1em;
+}
+
+#nuevaMilla h1{
+    margin-top: 1.5em;
+    margin-left: -3em ;
+}
+
+#nuevaMilla{
+    display: flex;
+}
+
+#primerMilla{
+    display: flex;
+}
+
+#tMilla{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#btnCambioMilla{
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2em;
+}
+
+.raya{
+    display: none;
+}
+
+.millaMobile{
+    display: none;
+}
+
+.txtMobile{
+    display: none;
+}
+
+.camionMobile{
+    display: none;
+}
+
+.tituloMilla{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;  
+    font-size: 55px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#containerMilla{
+    margin-left: 5em
+}
+
+#colMilla p{
+    color: black;
+}
+
+#divMilla{
+    background-color: #00cc71;
+    height: 15em;
+}
+
+/*publico*/
+
+#nuevoPublico{
+    background-color: #00cc71;
+}
+
+#nuevoPublico p{
+    color:black;
+}
+
+#nuevoPublico #lineaNueva{
+    border-left: solid black 4px;
+}
+
+#busMobile{
+    display: none;
+}
+
+#containerPu p{
+    color: black;
+}
+
+#lineaPu{
+    border-right: 4px solid black;
+}
+
+#divPu{
+    background-color: #00cc71;
+}
+
+#bus{
+    margin-top: 3em;
+}
+
+/*recargar*/
+
+#gridIconRe{
+    background-color: #f2f2f2;
+}
+
+.divHogar{
+    background-color: #f2f2f2;
+}
+
+.boxMilla{
+    background-color: #f2f2f2;
+
+}
+
+#logoCargador{
+    margin-left:5em;
+}
+
+#txtCargador{
+    width: 80%;
+    margin-left:2em;
+}
+#caMobile{
+    display: none;
+}
+
+.uMobile{
+    display: none;
+}
+
+.mujerMobile{
+    display:none;
+}
+
+#cargadorMobile{
+    display: none;
+}
+
+#recargaMobile{
+    display: none;
+}
+
+.divRecarga{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(25%, -50%);
+}
+
+.divRecarga h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 660%;
+    font-weight: bold;
+    color: #00cc71;
+   
+}
+
+.divRecarga p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 300%;
+    width: 70%;
+    line-height: 100%;
+}
+
+.txtRe{
+    margin-top: -0.5em;
+}
+
+.txtIn{
+    font-weight: bold;
+    margin-bottom: -0.2em;
+    width: 100% !important;
+}
+
+.boxUno{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin-top: 3em;
+}
+
+.cuadroVerde{
+    height: 2em;
+    width: 100%;
+    background-color: #00cc71;
+}
+
+.divHogar{
+    display: flex;
+   
+}
+
+.mCargador{
+    width: 50%;
+    height: fit-content;
+}
+
+.boxHogar{
+    width: 50%;
+}
+
+.logo-eve{
+    width: 25em;
+}
+
+.hogar{
+    font-size: 40px;
+    margin-left: 7.3em;
+}
+
+.pHogar{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    width: 27em;
+    line-height: 100%;
+}
+
+.boxHogar{
+    display: grid;
+    place-content: center;
+}
+
+#txtRecarga{
+   font-weight: bold; 
+   margin-left: -6em;
+   width: 25em;
+   line-height: 100%;
+   
+}
+
+
+#btnCargador{
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.divCargador{
+    background-color: #001e00;
+    height: 12em;
+    display: flex;
+    height: 10em;
+    width: 100%;
+    place-content: center;
+}
+
+.txtCargador{
+  color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  width: 65%;
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0em;
+  line-height: 100%;
+  margin-right: 3em;
+}
+
+#pCarga{
+    width: 80%;
+    margin-left: 3em;
+}
+
+#pCarga2{
+    width: 80%;
+    margin-left: 3em;
+}
+
+.boxMilla{
+    display: flex;
+}
+
+.milla{
+    font-size: 40px;
+    margin-left:4.8em;
+}
+
+#pCarga{
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+#pCarga2{
+    margin-top: -1em;
+    line-height: 100%;
+}
+
+.iconCarga{
+    width: 8em;
+    height: fit-content;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#txtGrid{
+    width: 12em;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 22px;
+}
+
+
+.boxIcon{
+    display: flex;
+    height: 15em;
+    width: 100%;
+    place-content: center;
+}
+
+.divIcon{
+    display: flex;
+    place-content: center;
+}
+
+#centro{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.containerEfi{
+    background-color: #00cc71;
+    display: flex;
+    place-content: center;
+    height: 15em;
+}
+
+.txtEfi{
+    color: white;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  width: 5em;
+  line-height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 2em;
+}
+
+.iconEfi{
+   margin-top: auto;
+   margin-bottom: auto;
+    margin-right: 5.9em;
+}
+
+#efi{
+    margin-left: -0.5em;
+}
+
+#efi2{
+    margin-left: -1.4em;
+}
+
+#efi3{
+    margin-left: -1.5em;
+}
+
+#tInsta{
+    width: 30em;
+}
+
+/*liviano*/
+
+#escarabajoMobile{
+    display: none;
+}
+
+.boxTableLivianos{
+    background-color: #00cc71;
+    width: 45%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+    text-align: justify;
+}
+
+.tituloTable{
+    background-color: white;
+    width: 5em;
+    height: 2em;
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+
+.txtLiviano{
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.txtLiviano2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    line-height: 100%;
+    width: 96%;
+    margin-top: -1em;
+}
+
+.pLiviano{
+    margin-left: 2em;
+}
+
+#tituloLiviano{
+    margin-top: 1em;
+}
+
+/*mobile*/
+
+
+@media screen and (max-width:450px){
+
+    /*navbar*/
+
+    #navElectrico{
+        width: 250px;
+    }
+    
+    .nav-link{
+        margin-bottom: 1.5em;
+        font-size: 30px;
+    }
+    
+    .navbar{
+        margin-top: 2em;
+    }
+    
+    #conHamburguesa{
+        border-color:white;
+    }
+    
+    #hamburguesa{
+        width: 2.5em;
+       
+    }
+    
+    .logo{
+        width: 160px;
+        height: fit-content;
+        margin-left: 1.5em;
+    }
+    
+    #lista{
+        text-align: center;
+        margin-top: 3em;
+    }
+    
+    #navElectrico{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*taller*/
+    
+    .imgBateria{
+        display: none;
+    }
+    
+    .bateriaMobile{
+        display: block;
+        width: 100%;
+        height: fit-content;
+        margin-top: 2em;
+    }
+    
+    .pTaller{
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+        line-height: 100%;
+        background-color: #f2f2f2;
+        font-weight: bold;
+        text-align: center;
+        width: 10em;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    
+    .dTaller{
+        background-color: #f2f2f2;
+    }
+    
+    .divEquipo{
+        display: block;
+        margin-top: -1em;
+    }
+    
+    .bateria{
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .tituloTaller{
+        font-size: 23px;
+        width: 14em;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2em;
+    }
+    
+    .textoTaller{
+        width: 100%;
+    }
+    
+    .parrafoTaller{
+        font-size: 23px;
+        width: 14em;
+        padding-bottom: 2em;
+    }
+    
+    #baterialMobile{
+        display: block;
+    }
+    
+    #baterialDesktop{
+        display: none;
+    }
+    
+    #taller{
+        width: 15em;
+    }
+    
+    .separador{
+        display: none;
+    }
+    
+    #divMobile{
+        margin-top: -1em;
+        height: 15em;
+        display: block;
+        
+    }
+    
+    #txtMobile{
+        font-size: 35px;
+        text-align: center;
+        display: flex;
+        padding-top: 1.4em;
+        
+    }
+    
+    #btnCita{
+        font-size: 18px;
+        width: 127px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /*footer*/
+
+    footer{
+        height: 40em;
+    }
+    
+    .iconoEV{
+        display: none;
+    }
+    
+    .suscribirse{
+        display: flex;
+        width: 250px;
+        height: 40px;
+        font-size: 13px;
+    }
+    
+    .divInput{
+        display: block;
+    
+    }
+    
+    #btnFooter{
+        font-size: 18px;
+        width: 130px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top:-0.1em;
+        margin-bottom: 1em;
+    }
+    
+    .icono{
+        width: 2em;
+        height: fit-content;
+    
+    }
+    
+    .textoIcono{
+        font-size: 15px;
+        margin-left: -0.1em;
+    }
+    
+    .divIcono{
+        margin: 0;
+    }
+    
+    .divFooter{
+        display: block;
+    }
+    
+    .containerRedes{
+        display: block;
+    }
+    
+    .divIcono{
+        place-content: center;
+    }
+    
+    .iconoRedes{
+        width: 4em;
+        margin: 1em;
+    }
+    
+    .textoIcono{
+        font-size: 20px;
+    }
+    
+    .redes{
+       margin-left: 2em;
+    }
+    
+    footer{
+        padding-bottom: 2em;
+    }
+    
+    #instagram{
+        margin-left: 2em;
+    }
+    
+    #twitter{
+        margin-left: 2em;
+    }
+    
+    .boxInput{
+        display: flex;
+        place-content: center;
+    }
+    
+    .evMobile{
+        width: 5em;
+        margin-top: -1.1em;
+        margin-left: -1em;
+        display: block;
+    }
+    
+    #textoTwt{
+        margin-left: 1em;
+        margin-top: -1.3em;
+    }
+    #textoFacebook{
+        margin-left: 1em;
+        margin-top: -1.5em;
+    }
+    
+    /*ultima milla*/
+    
+    .txtMobile{
+        display: block;
+        width: 100%;
+        height: fit-content;
+    }
+    
+    .camionMobile{
+        display: block;
+        width: 100%;
+        height: fit-content;
+        margin-top: 2em;
+    }
+    
+    #camionDesktop{
+        display:none;
+    }
+    
+    .tituloMilla{
+        display: none;
+    }
+    
+    .tituloCambio{
+        font-size: 45px;
+        text-align: center;
+        margin-top: -0.4em;
+    }
+    
+    #btnCambio{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 130px;
+        font-size: 18px;
+    }
+    
+    #mobileCambio{
+        padding-top: 1.5em;
+    }
+    
+    #divMilla{
+        display: none;
+    }
+    
+    .millaMobile{
+        display: block;
+        background-color: #00cc71;
+        height: 50em;
+        margin-top: 9em;
+    }
+    
+    #tituloMillaMobile{
+        display: block;
+        font-size: 33px;
+        color: black;
+    }
+    
+    .pCambio{
+        margin: 0;
+        color: #000000;
+    }
+    
+    #textoHuella{
+        width: 100%;
+        text-align: center;
+        margin:0;
+        margin-top:2em;
+    }
+    
+    #textoReduce{
+        width: 100%;
+        text-align: center; 
+        margin:0;
+        margin-top: -0.3em;
+    }
+    
+    #año{
+        width: 100%; 
+        margin: 0;
+        text-align: center;
+        margin-top: -0.9em;
+    }
+    
+    .raya{
+        border-top: 1px solid black;
+        width: 100px;
+        display: block;
+        margin-left: 40%;
+        margin-top: 2em;
+    }
+
+    /*publico*/
+
+    #textoEntre{
+        width: 100%; 
+        margin: 0;
+        text-align: center;
+        margin-top: 1.5em;
+    }
+
+    #textoSem{
+        width: 100%; 
+        margin: 0;
+        text-align: center;
+        line-height: 100%;
+        margin-top: -0.5em;
+    }
+
+    #textoEq{
+        width: 220px; 
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        line-height: 100%;
+        font-size: 15px;
+        
+       
+    }
+
+    #mobilePu{
+        display: block;
+        background-color: #00cc71;
+        height: 48em;
+
+    }
+
+    #bus{
+        display:none;
+    }
+
+    #busMobile{
+        display: block;
+        margin-top: 2em;
+    }
+
+    .container{
+        display: none;
+    }
+
+    #mobileMilla{
+        margin-top: 0em;
+    }
+
+    #tituloPublicoMobile{
+        display: block;
+        font-size: 33px;
+        color: black;
+        margin-top: 90px;
+    }
+
+    #mobilePublico{
+        margin-top: 1.5em;
+        
+    }
+
+    #mobilebox{
+        display: block;
+    }
+
+    .divCambio{
+        display: none;
+    }
+
+    #gridCambio{
+        display: none;
+    }
+
+    /*home*/
+
+    .nuevo{
+        display: none;
+    }
+
+    #mobileHomeBox{
+        display: block;
+        background-color: #001e00;
+        margin: 0;
+        margin-top: 60px;
+    }
+
+    #mobileHomeBox p{
+        color:#00cc71
+    }
+
+    .carroMobile{
+        display: block;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .carroInicio{
+        display: none;
+    }
+
+    .textoDescarbonizamos{
+        font-size: 35px;
+        line-height: 100%;
+        margin-top: 40px;
+    }
+
+    #rayaHome{
+        border-top: 1px solid #00cc71;
+    }
+
+    .carroMercedesMobile{
+        display: block;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .carroMercedes{
+        display: none;
+    }
+
+    #txtSabemos{
+        font-size: 30px;
+        line-height: 100%;
+        margin-top: 50px;
+    }
+
+    #txtDisminuimos{
+        font-size: 30px;
+        line-height: 100%;
+        font-weight: 300;
+        width: 90%;
+        padding-top: 15px ;
+    }
+    
+    .containerBtn{
+        display: block;
+    }
+
+    #conoceMobile{
+        font-size: 25px;
+        height: 33px;
+    }
+
+    #btnHomeMobile{
+        font-size: 18px;
+        height: 40px;
+        margin-top: -15px;
+        margin-bottom: 50px ;
+    }
+
+    .divCotiza{
+        display: block;
+        height: 17em;
+    }
+
+    #cotizaMobile{
+        font-size: 35px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 300px;
+        padding-top: 1.3em;
+    }
+
+    #btnCotiza{
+        font-size: 18px;
+        height: 40px;
+        width: 130px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .divClientes{
+        height: 78em;
+    }
+
+    .parrafoClientes{
+        font-size: 35px;
+        text-align: center;
+        line-height: 100%;
+        padding-top: 2em;
+    }
+
+    .textoMovilidad{
+        font-size: 35px;
+        text-align: center;
+        line-height: 100%;
+        margin-top: -10px;
+    }
+
+    .burbujaTexto{
+        width: 5em;
+        margin-top: 4em;
+        margin-bottom: 30px;
+    }
+
+    .tituloTestimonio{
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 100%;
+        margin-top: -0.1px;
+    }
+
+    .contenidoTestimonio{
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 100%;
+    }
+
+    .containerTestimonios{
+        display: block;
+    }
+
+    .aliadosMobile{
+        display: block;
+        place-content: center;
+        margin-bottom: 1em;
+    }
+
+    .imgAliados{
+        display: flex;
+        place-content: center;
+        justify-content:center;
+        margin-top: -20px;
+        margin-bottom: 30px;
+  
+    }
+
+    .logoAliado{
+        width: 80px;
+        height: fit-content;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #textoAliados{
+        font-size: 35px;
+        display: flex;
+        text-align: center;
+        place-content: center;
+        margin-top: 30px;
+    }
+
+    /*100% electrico*/
+
+    .imagenBMWMobile{
+        display: block;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .imagenBMW{
+        display: none;
+    }
+
+    .bmwMobile{
+        display: block;
+        background-color: #f2f2f2;
+    }
+
+    .bmwMobile h1{
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 35px;
+        width: 270px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 40px;
+        width: 250px;
+    }
+
+    .bmwMobile p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 23px;
+        line-height: 100%;
+        text-align: center;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+    }
+
+    #btnConoceElec{
+        font-size: 15px;
+        height: 35px;
+        width: 115px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3em;
+    }
+
+    .rayaMobile{
+        height: 7px;
+        width: 100%;
+        background-color: #00cc71;
+        margin-top: 3em;
+    }
+
+    .lineaTeam{
+        display: none;
+    }
+
+    #gridEco{
+        display: block;
+    }
+
+    .parrafoEco{
+        margin-top: 20px;
+        font-size: 23px;
+        font-weight: 300;
+        width: 300px;
+    }
+
+    .divEcosistemas{
+        margin-top: 100px;
+    }
+
+    .divSoluciones{
+        margin-top: 100px;
+    }
+
+    .divTecnicas{
+        margin-top: 100px;
+        margin-bottom: 90px;
+    }
+
+    .teamTitulo{
+        display: flex;
+        margin: 0;
+        place-content: center;
+    }
+
+    #gridTeam{
+        display: block;
+    
+    }
+
+    .fotoTeam{
+        width: 12em;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 80px;
+    }
+
+    .nombreTeam{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .cargoTeam{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 30px;
+        width: 250px;
+        margin-top: -0.5em;
+        line-height: 100%;
+        text-align: center;
+    }
+
+    .profesionTeam{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 30px;
+        width: 100%;
+        margin-top: -0.3em;
+        line-height: 100%;
+        text-align: center;
+        place-content: center;
+    }
+
+    .especialidadTeam{
+        display: flex;
+       line-height: 100%;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -0.3em;
+        place-content: center;
+    }
+
+    .descripcionTeam{
+        display: flex;
+       line-height: 100%;
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -0.5em;
+        place-content: center;
+    }
+
+    .contactoTeam{
+        display: flex;
+         font-size: 25px;
+         width: 100%;
+         text-align: center;
+         margin-right: auto;
+         margin-left: auto;
+         place-content: center;
+         margin-top: 10px;
+    }
+
+    #energiaBox{
+        display: block;
+        height: 180px;
+    }
+
+    #energiaBox h1{
+        font-size: 30px;
+        width: 70%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    #energiaBox a{
+        font-size: 18px;
+        width: 130px;
+        height: 40px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        
+    }
+
+    /*servicios*/
+
+    .serviciosMobile{
+        display: block;
+        background-color: #f2f2f2;
+        width: 100%;
+        margin-top: 55px;
+    }
+
+    .imagenServicios{
+        width: 87%;
+  
+    }
+
+    .degradado{
+        width: 100%;
+    }
+
+    #mobileServicios{
+        font-size: 35px;
+        width: 390px;
+    }
+
+    .txtServicios{
+        width: 250px;
+        font-size: 30px;
+    }
+
+    /*sistema de recargas*/
+
+    #cargadorMobile{
+        display: block;
+    }
+
+    #recargaMobile{
+        display: block;
+        padding-top: 30px;
+    }
+
+    #cargadorEscritorio{
+        display: none;
+    }
+
+    .divRecarga{
+        display: none;
+    }
+
+    #recargaMobile h1{
+        font-size: 50px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: bold;
+        color: #00cc71;
+        text-align: center;
+        height: 50px;
+        margin-bottom: 30px;
+
+    }
+
+    .cuadroVerde{
+        margin-top: 30px;
+        height: 10px;
+    }
+
+    .divHogar{
+        display: none;
+    }
+
+    #recargaMobile p{
+        font-size: 25px;
+        font-family: 'Space Grotesk', sans-serif;
+        text-align: center;
+        line-height: 100%;
+    }
+
+    .mujerMobile{
+        display:block;
+        background-color: #f2f2f2;
+        height: 40em;
+    }
+
+    .mujerMobile img{
+        width: 100%;
+    }
+
+    #evMobile{
+        width: 200px;
+        height: fit-content;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+    }
+
+    .hogar{
+        font-size: 20px;
+        margin-left: 12em;
+    }
+
+    .pHogar{
+        text-align: center;
+        width: 90%;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 45px;
+       
+    }
+
+    .divCargador{
+        display: block;
+        height: 19em;
+
+    }
+
+    .txtCargador{
+        font-size: 30px;
+        width: 80%;
+        text-align: center;
+        padding-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #btnCargador{
+        font-size: 18px;
+        width: 200px;
+        height: 40px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 25px;
+    }
+
+    .uMobile{
+        display: block;
+        background-color: #f2f2f2;
+        height: 30em;
+    }
+
+    .mCargadorMobile{
+        width: 100%;
+    }
+
+    .milla{
+        font-size: 20px;
+        margin-left: 9.5em;
+    }
+
+    #pCarga{
+        margin-top: -0.2em;
+        width: 300px;
+        margin-left: auto;
+    }
+
+    #pCarga2{
+        margin-top: -2em; 
+        width: 300px;
+        margin-left: auto;
+    }
+    
+    #mobileC{
+        display: none;
+    }
+
+
+    #gridIconRe{
+        display: block;
+        height: 43em;
+        padding-top: 2em;
+    }
+
+    .divIcon{
+        display: block;
+        margin-top: 30px;
+    }
+
+    #centro {
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .iconCarga{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .containerEfi{
+        display: block;
+        height: 43em;
+    }
+
+
+    .txtEfi{
+        font-size: 40px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+    }
+
+    #efi{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #efi2{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #efi3{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .iconEfi{
+        margin: 0;
+    }
+
+    #gridB{
+        display: block;
+    }
+
+    .tituloKit{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .pBene{
+        font-size: 25px;
+        line-height: 100%;
+    }
+
+    .iconBene{
+        width: 230px;
+    }
+
+    #tInsta{
+        width: 100%;
+    }
+
+    #caMobile{
+        display: block;
+    }
+
+    /*super carros*/
+
+    #filaKit p{
+        font-family: 'Space Grotesk', sans-serif;
+        background-color: white;
+        font-size: 20px;
+        margin-left: 20px;
+  
+    }
+
+    #filaInfo p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        margin-left: 20px;
+        width: 100px;
+        text-align: center;
+    }
+
+    .rayaCarros{
+        width: 80%;
+        border-top: solid white 1px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .tMobile{
+        font-family: 'Raleway', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #cooperMobile{
+        display: block;
+    }
+
+    .boxTable{
+        display: none;
+    }
+
+    #cooper{
+        display: none;
+    }
+
+    .tablaMobile{
+        background-color: #00cc71;
+        height: 53em;
+        margin-top: -40px;
+        display: block;
+    }
+
+    .tablaMobile .rowTabla{
+        display: flex;
+        place-content: center;
+    }
+
+    .tituloComparativo{
+        font-size: 30px;
+        width: 80%;
+        padding-top: 30px;
+    }
+
+    .segundoContainer{
+        display: block;
+        background-color: #f2f2f2;
+    }
+
+    #escaEscritorio{
+        display: none;
+    }
+
+    .containerKit{
+        width: 100%;
+    }
+
+    .number{
+        font-size: 30px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    .pSegundo{
+        font-size: 25px;
+        width: 90%; 
+    }
+
+    .nSegundo{
+        font-size: 25px;
+    }
+
+    .boxKit{
+        width: 90%;
+    }
+
+    .txtSegundo{
+        width: 90%; 
+    }
+
+    .tituloKit{
+        width: 90%;
+        padding-top: 50px;
+    }
+
+    .containerCon{
+        width: 100%;
+        margin-top: 80px;
+        background-color: #001e00;
+  
+    }
+
+    .tituloCon{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #citaCarro{
+        display: none;
+    }
+
+    #escaMobile{
+        width: 100%;
+        height: fit-content ;
+    }
+
+    .txtCon{
+       
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -30px;
+        margin-bottom: 50px;
+    }
+
+    #tituloVe{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: -25px;
+    }
+
+    #pVe{
+        width: 90%;
+    }
+
+    #pVe1{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    /*livianos*/
+
+    #escarabajoMobile{
+        display: block;
+    }
+
+    #escarabajoEscritorio{
+        display: none;
+    }
+
+    .boxTableLivianos{
+        display: none;
+    }
+
+    #pLivianos{
+        font-size: 15px !important;
+        width: 80% !important;
+        margin-top: -1em;
+        line-height: 100%;
+    }
+
+    #livianosT{
+        width: 70%;
+        line-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #mobileLivianos{
+        height: 54em;
+    }
+
+    #conLivianos{
+        display: none;
+    }
+
+    #kitMobile{
+        margin-top: -1.5em;
+    }
+
+    .txtCon p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tituloKit{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #escaMobile{
+        display: block;
+    }
+
+    }
+
+    
+    
+        
