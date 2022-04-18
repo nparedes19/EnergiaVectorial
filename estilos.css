@@ -547,7 +547,7 @@ footer{
 
 #linkedin{
     width: 3em;
-    height: fit-content;
+    height: auto;
     margin-left: -1em;
 }
 
