@@ -1769,7 +1769,7 @@ footer{
     
     .icono{
         width: 2em;
-        height: fit-content;
+        height: auto;
     
     }
     
@@ -1796,6 +1796,7 @@ footer{
     
     .iconoRedes{
         width: 4em;
+        height: auto;
         margin: 1em;
     }
     
@@ -1826,6 +1827,7 @@ footer{
     
     .evMobile{
         width: 5em;
+        height: auto;
         margin-top: -1.1em;
         margin-left: -1em;
         display: block;
@@ -2047,7 +2049,6 @@ footer{
     .carroMercedesMobile{
         display: block;
         width: 100%;
-        height: fit-content;
     }
 
     .carroMercedes{
@@ -2129,6 +2130,7 @@ footer{
         width: 5em;
         margin-top: 4em;
         margin-bottom: 30px;
+        height: auto;
     }
 
     .tituloTestimonio{
@@ -2169,7 +2171,7 @@ footer{
 
     .logoAliado{
         width: 80px;
-        height: fit-content;
+        height: auto;
         margin-top: auto;
         margin-bottom: auto;
     }
