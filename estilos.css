@@ -607,7 +607,7 @@ footer{
 
 .iconoEcosistema{
     width: 9em;
-    height: fit-content;
+    height: auto;
     display: flex;
     place-content: center;
     margin-right: auto;
@@ -2189,7 +2189,7 @@ footer{
     .imagenBMWMobile{
         display: block;
         width: 100%;
-        height: fit-content;
+
     }
 
     .imagenBMW{
@@ -2282,6 +2282,7 @@ footer{
 
     .fotoTeam{
         width: 12em;
+        height: auto;
         display: flex;
         margin-right: auto;
         margin-left: auto;
