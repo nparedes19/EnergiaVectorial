@@ -130,6 +130,7 @@
         .then(() => {
           btn.value = 'Suscribete';
           alert('Tu correo ya está en nuestra base de datos, pronto nos pondremos en contacto!');
+          location.reload();
         }, (err) => {
           btn.value = 'Suscribete';
           alert(JSON.stringify(err));
