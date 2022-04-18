@@ -2419,6 +2419,8 @@ footer{
 
     #cargadorMobile{
         display: block;
+        width: 100%;
+        height: auto;
     }
 
     #recargaMobile{
