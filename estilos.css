@@ -1,3 +1,61 @@
+/*modo ingles*/
+
+
+.cambioMobileIngles #textoSem{
+    font-size: 26.5px;
+}
+
+.sabemosIngles{
+    font-size: 55px!important;
+    margin-bottom: 20px;
+}
+
+#caIngles #textoHuella{
+    font-size: 20.5px;
+}
+
+#caIngles #año{
+    font-size: 20.5px;
+    margin-top: -2em;
+    margin-left: 7em;
+}
+
+#caIngles #lineaNueva{
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
+#caIngles .nuevoBox{
+    margin-top: 1.5em;
+}
+
+#caIngles #numeroNuevo{
+    margin-top: 30px;
+}
+
+#caIngles #siempreNuevo{
+    margin-left: -2.1em;
+}
+
+.españolCambio{
+    display: flex;
+    justify-content: center;
+    place-content: center;
+    padding-top: 20px;
+}
+
+.noMostrar{
+    display: none!important;
+}
+
+.mostrar{
+    display: block!important;
+}
+
+.mostrarFlex{
+    display: flex!important;
+}
+
 /*bara de navegación*/
 
 .myButton:hover{
@@ -122,7 +180,7 @@
 }
 
 #btnCambioHome{
-    margin-left: 16.7em;
+    margin-left: 13.3em;
 }
 
 .pCambio{
@@ -249,15 +307,14 @@
 }
 
 .nuevo{
-    display: flex;
+    display: block;
     background-color: #001e00;
-    place-content: center;
+
     height: 15em;
 }
 
 #cambioInicio{
     font-size: 55px;
-    margin-left: 1em;
     margin-top: 0.7em;
     margin-right: 3em;
     width: 500px;
@@ -299,9 +356,9 @@
 }
 
 #lineaNueva{
-    margin-left: 6em;
+    margin-left: 4em;
     margin-right: 0.5em;
-    margin-top: 2.5em;
+    margin-top: 2em;
     height: 150px;
 }
 
@@ -1729,7 +1786,7 @@ footer{
     }
     
     #btnCita{
-        font-size: 18px;
+        font-size: 17px;
         width: 127px;
         height: 40px;
         margin-left: auto;
@@ -2062,6 +2119,14 @@ footer{
         font-size: 30px;
         line-height: 100%;
         margin-top: 50px;
+    }
+
+    .sabemosIngles{
+        font-size: 30px!important; 
+    }
+
+    .movilidadIngles{
+        font-size: 32px!important;
     }
 
     #txtDisminuimos{

@@ -13,55 +13,64 @@
     <title>Energía Vectorial / Taller</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a href="index.html"><img src="MENU/LOGO-EV-14.png" class="logo" alt="logo"></a>
-          <button id="conHamburguesa" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span id="hamburguesa" class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul id="lista" class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" id="navElectrico" aria-current="page" href="electrico.html">100% eléctrico</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="taller.html">Taller</a>
-              </li>
-              <li class="nav-item">
-                <a href="https://wa.link/mxqamq" class="myButton">Contáctenos</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a href="index.html"><img src="MENU/LOGO-EV-14.png" class="logo" alt="logo"></a>
+      <button id="conHamburguesa" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span id="hamburguesa" class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul id="lista" class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="navElectrico" aria-current="page" href="electrico.html">100% eléctrico</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="servicios.html" id="navServicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="taller.html" id="navTaller">Taller</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" id="ingles">Ingles</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://wa.link/mxqamq" class="myButton" id="navBoton">Contáctenos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <main>
         <img src="4. TALLER/BATERIA-TALLER.png" alt="bateria" class="imgBateria">
         <img src="4. TALLER/BATERIA-TALLER-MOBIL.png" alt="bateria" class="bateriaMobile">
-        <div class="dTaller"><p class="pTaller">Ofrecemos todo tipo de servicios para el ecosistema de vehículos eléctrivos, desde patinetas y bicicletas eléctricas hasta proyectos espciales</p></div>
+        <div class="dTaller tEspañol5"><p class="pTaller">Ofrecemos todo tipo de servicios para el ecosistema de vehículos eléctrivos, desde patinetas y bicicletas eléctricas hasta proyectos espciales</p></div>
+        <div class="dTaller noMostrar tIngles5"><p class="pTaller">We offer all kinds of services for the electric vehicle ecosystem, from electric skateboards and bicycles to special projects</p></div>
         <div class="divEquipo">
             <img src="4. TALLER/MANOS-ARREGLANDO-BATERIA.jpg" alt="manos-arreglando-bateria" class="bateria">
             <div class="textoTaller">
-                <p class="tituloTaller">Nuestro equipo, está capacitado y certificado</p>
-                <p class="parrafoTaller">para instalar, diagnosticar y realizar matenimientos de vehículos eléctricos, híbridos y sistemas de recargas.</p>
+                <p class="tituloTaller tEspañol">Nuestro equipo, está capacitado y certificado</p>
+                <p class="tituloTaller noMostrar tIngles">Our team is trained and certified</p>
+                <p class="parrafoTaller tEspañol1">para instalar, diagnosticar y realizar matenimientos de vehículos eléctricos, híbridos y sistemas de recargas.</p>
+                <p class="parrafoTaller noMostrar tIngles1">to install, diagnose and perform maintenance on electric vehicles, hybrids and recharging systems.</p>
             </div>
         </div>
         <div class="divEquipo">
             <img src="4. TALLER/FOTO-BATERIA.jpg" alt="bateria" class="bateria" id="baterialMobile">
             <div class="textoTaller" id="tallerMobile">
-                <p class="tituloTaller" id="taller">Ofrecemos servicio de re-potenciación de baterías que hayan cumplido sus ciclos,</p>
-                <p class="parrafoTaller">recuperando y aumentando su autonomía inicial.</p>
+                <p class="tituloTaller tEspañol2" id="taller">Ofrecemos servicio de re-potenciación de baterías que hayan cumplido sus ciclos,</p>
+                <p class="tituloTaller noMostrar tIngles2" id="taller">We offer re-powering service for batteries that have completed their cycles,</p>
+                <p class="parrafoTaller tEspañol3">recuperando y aumentando su autonomía inicial.</p>
+                <p class="parrafoTaller noMostrar tIngles3">recovering and increasing its initial autonomy.</p>
             </div>
             <img src="4. TALLER/FOTO-BATERIA.jpg" alt="bateria" class="bateria" id="baterialDesktop">
         </div>
         <div class="separador"></div>
         <div class="divCita" id="divMobile">
-            <p class="textoCita" id="txtMobile" >¿Qué esperas para solicitar tu cita?</p>
+            <p class="textoCita tEspañol4" id="txtMobile" >¿Qué esperas para solicitar tu cita?</p>
+            <p class="textoCita noMostrar tIngles4" id="txtMobile" >Request your appointment!</p>
             <a href="https://wa.link/mxqamq" id="btnCita" class="myButton2">Click aquí</a>
         </div>
     </main>
@@ -137,6 +146,7 @@
         });
     });
     </script>
+    <script src="javascript/texto_taller.js"> </script>
 </body>
 </html>
 
