@@ -4,6 +4,8 @@ modoIngles = false
 btnIngles.addEventListener("click",e =>{
     if (modoIngles===false){
         btnIngles.textContent = "Español";
+        document.querySelector(".imgBateria").src="4. TALLER/pagina-nati2.png"
+        document.querySelector(".bateriaMobile").src="4. TALLER/pagina-nati3.png"
         document.getElementById("navElectrico").textContent = "100% electric"
         document.getElementById("navServicios").textContent = "Services"
         document.getElementById("navTaller").textContent = "Workshop"
@@ -24,6 +26,8 @@ btnIngles.addEventListener("click",e =>{
         modoIngles = true;
     }else{
         btnIngles.textContent = "Ingles";
+        document.querySelector(".bateriaMobile").src="4. TALLER/BATERIA-TALLER-MOBIL.png"
+        document.querySelector(".imgBateria").src="4. TALLER/BATERIA-TALLER.png"
         document.getElementById("navElectrico").textContent = "100% eléctrico"
         document.getElementById("navServicios").textContent = "Servicios"
         document.getElementById("navTaller").textContent = "Taller"

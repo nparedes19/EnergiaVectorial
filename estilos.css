@@ -1,5 +1,25 @@
 /*modo ingles*/
 
+#cajaMobileTabla{
+    display: none;
+}
+
+#mobileBoxIngles{
+    display: none;
+}
+
+.mostrarTabla{
+    display: table-cell;
+}
+
+.mostrarGrid{
+    display: grid;
+}
+
+#howIngles{
+    font-size: 55px;
+}
+
 
 .cambioMobileIngles #textoSem{
     font-size: 26.5px;
@@ -541,6 +561,33 @@
 
 /*footer*/
 
+.iconoEV{
+    margin-left: 85px;
+}
+
+#pais{
+    width: 300px;
+    margin-left: -0.4em;
+}
+
+#phone{
+    width: 300px;
+    margin-left: -0.4em;
+    margin-right: 0.6em;
+}
+
+#login{
+    display: flex;
+    padding-top: 30px;
+}
+
+#phone{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
 .boxInput{
     display: flex;
 }
@@ -845,7 +892,7 @@ footer{
 .tituloTaller{
     font-family: 'Raleway', sans-serif;
     font-weight: bold; 
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -854,13 +901,13 @@ footer{
 
 .parrafoTaller{
     font-family: 'Raleway', sans-serif; 
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
     text-align: center;
     justify-content: center;
     margin-top: -0.5em;
     line-height: 100%;
-    width: 650px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -996,6 +1043,10 @@ footer{
 }
 
 /*super carros*/
+
+#mobileContainer{
+    display: none;
+}
 
 #escaMobile{
     display: none;
@@ -1227,6 +1278,18 @@ footer{
 
 /*ultima milla*/
 
+#millaNuevo{
+    background-color: #00cc71;
+}
+
+#millaNuevo p{
+    color: black;
+}
+
+#millaNuevo #textoHuella{
+    margin-top: 25px;
+}
+
 #nuevoNumero{
     margin-left: 20em;
 }
@@ -1281,7 +1344,7 @@ footer{
 .tituloMilla{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;  
-    font-size: 55px;
+    font-size: 52px;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -1302,9 +1365,17 @@ footer{
 
 /*publico*/
 
-#nuevoPublico{
+#publicoNuevo{
     background-color: #00cc71;
 }
+
+#publicoNuevo p{
+   color: black;
+}
+
+#publicoNuevo #lineaNueva{
+    border-left: solid 4px black;
+ }
 
 #nuevoPublico p{
     color:black;
@@ -1395,8 +1466,8 @@ footer{
 
 .divRecarga p{
     font-family: 'Raleway', sans-serif;
-    font-size: 300%;
-    width: 70%;
+    font-size: 280%;
+    width: 90%;
     line-height: 100%;
 }
 
@@ -1655,6 +1726,10 @@ footer{
 
 @media screen and (max-width:450px){
 
+    #inglesMilla{
+        display: none !important;
+    }
+
     /*navbar*/
 
     #navElectrico{
@@ -1795,8 +1870,12 @@ footer{
     
     /*footer*/
 
+    #login{
+        display: block;
+    }
+
     footer{
-        height: 35em;
+        height: 45em;
     }
     
     .iconoEV{
@@ -1808,6 +1887,36 @@ footer{
         width: 250px;
         height: 40px;
         font-size: 13px;
+    }
+
+    #pais{
+        display: flex;
+        width:245px;
+        height: 40px;
+        font-size: 13px;
+        margin-left: 4em;
+    }
+
+    .iti{
+
+        height: 40px;
+        font-size: 13px;
+        margin-top: 20px;
+        margin-left: 4.5em;
+
+    }
+
+    #button{
+        margin-top: 20px;
+        margin-left: 3em;
+        width: 245px;
+        height: 40px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    #phone{
+        width: 245px;
     }
     
     .divInput{
@@ -1863,7 +1972,7 @@ footer{
     }
     
     .redes{
-       margin-left: 2em;
+       margin-left: 1.4em;
     }
     
     footer{
@@ -1947,14 +2056,21 @@ footer{
     .millaMobile{
         display: block;
         background-color: #00cc71;
-        height: 50em;
-        margin-top: 9em;
+        height: 47em;
+        margin-top: 5em;
     }
     
     #tituloMillaMobile{
         display: block;
         font-size: 33px;
         color: black;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #mobileMillaIngles{
+        height: 47em;
     }
     
     .pCambio{
@@ -2049,7 +2165,10 @@ footer{
         display: block;
         font-size: 33px;
         color: black;
-        margin-top: 90px;
+        margin-top: 50px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #mobilePublico{
@@ -2130,7 +2249,7 @@ footer{
     }
 
     #txtDisminuimos{
-        font-size: 30px;
+        font-size: 25px;
         line-height: 100%;
         font-weight: 300;
         width: 90%;
@@ -2143,7 +2262,7 @@ footer{
 
     #conoceMobile{
         font-size: 25px;
-        height: 33px;
+        height: 80px;
     }
 
     #btnHomeMobile{
@@ -2708,7 +2827,25 @@ footer{
 
     /*super carros*/
 
-    
+    #cajaMobileTabla{
+        display: block;
+    }
+
+    #mobileContainer{
+        display: block;
+    }
+
+    #citaCarroIngles{
+        display: none !important;
+    }
+
+    #tablaIngles{
+        display: none !important;
+    }
+
+    #howIngles {
+        font-size: 37px;
+    }
     #filaKit p{
         font-family: 'Space Grotesk', sans-serif;
         background-color: white;
