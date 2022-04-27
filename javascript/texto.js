@@ -8,6 +8,7 @@ btnIngles.addEventListener("click",e =>{
     if (modoIngles===false){
         btnIngles.textContent = "Español";
         document.querySelector(".cEspañol").src="1. HOME/FOTO_CAR_INICIOingles.png"
+        document.querySelector(".txtMobile").src="3.3 ÚLTIMA MILLA/pagina-nati1.png"
         document.getElementById("deEspañol").classList.add("noMostrar")
         document.getElementById("deIngles").classList.add("mostrar")
         document.getElementById("deEspañol").classList.remove("mostrar")
@@ -50,6 +51,7 @@ btnIngles.addEventListener("click",e =>{
         modoIngles = true;
     }else{
         btnIngles.textContent = "Ingles";
+        document.querySelector(".txtMobile").src="3.3 ÚLTIMA MILLA/texto-pagina.png"
         document.querySelector(".cEspañol").src="1. HOME/FOTO_CAR_INICIO.png"
         document.getElementById("deEspañol").classList.add("mostrar")
         document.getElementById("deIngles").classList.remove("mostrar")

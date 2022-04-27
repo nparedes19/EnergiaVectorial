@@ -1891,10 +1891,10 @@ footer{
 
     #pais{
         display: flex;
-        width:245px;
+        width:250px;
         height: 40px;
         font-size: 13px;
-        margin-left: 4em;
+        margin-left: 4.2em;
     }
 
     .iti{
@@ -1902,21 +1902,21 @@ footer{
         height: 40px;
         font-size: 13px;
         margin-top: 20px;
-        margin-left: 4.5em;
+        margin-left: 4.7em;
 
     }
 
     #button{
         margin-top: 20px;
-        margin-left: 3em;
-        width: 245px;
+        margin-left: 3.2em;
+        width: 250px;
         height: 40px;
         font-size: 18px;
         margin-bottom: 20px;
     }
 
     #phone{
-        width: 245px;
+        width: 250px;
     }
     
     .divInput{
