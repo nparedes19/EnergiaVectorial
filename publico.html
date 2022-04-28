@@ -441,9 +441,10 @@
 
 <script>
   btnIngles = document.getElementById("ingles")
-  modoIngles = false
   btnIngles.addEventListener("click",e =>{
-      if (modoIngles===false){
+      modoIngles = localStorage.traduccion
+      console.log(modoIngles)
+      if (modoIngles==="espanol"){
           btnIngles.textContent = "Español";
           document.getElementById("navElectrico").textContent = "100% electric"
           document.getElementById("navServicios").textContent = "Services"
@@ -460,7 +461,10 @@
           document.getElementById("puEspañol2").classList.add("noMostrar")
           document.getElementById("puIngles2").classList.add("mostrar")
           document.querySelector(".txtMobile").src="3.3 ÚLTIMA MILLA/pagina-nati1.png"
-          modoIngles = true;
+          modoIngles = "ingles";
+          localStorage.setItem('traduccion', modoIngles)
+          variableLocal= localStorage.getItem('traduccion', modoIngles)
+          console.log(variableLocal)
       }else{
           btnIngles.textContent = "Inglés";
           document.getElementById("navElectrico").textContent = "100% eléctrico"
@@ -478,9 +482,62 @@
           document.getElementById("puEspañol2").classList.remove("noMostrar")
           document.getElementById("puIngles2").classList.remove("mostrar")
           document.querySelector(".txtMobile").src="3.3 ÚLTIMA MILLA/texto-pagina.png"
-          modoIngles = false;
+          modoIngles = "espanol";
+          localStorage.setItem('traduccion', modoIngles)
+          variableLocal= localStorage.getItem('traduccion', modoIngles)
+          console.log(variableLocal)
       }
 })
+
+document.body.onload = function() {
+  console.log("esta en español")
+    let modoIngles = localStorage.traduccion
+    if (modoIngles==="espanol"){
+      btnIngles.textContent = "Inglés";
+          document.getElementById("navElectrico").textContent = "100% eléctrico"
+          document.getElementById("navServicios").textContent = "Servicios"
+          document.getElementById("navTaller").textContent = "Taller"
+          document.getElementById("navBoton").textContent = "Contáctenos"
+          document.getElementById("caEspañol").classList.remove("noMostrar")
+          document.getElementById("caIngles").classList.remove("mostrarFlex")
+          document.querySelector(".publicEspañol").classList.remove("noMostrar")
+          document.querySelector(".publicIngles").classList.remove("mostrar")
+          document.getElementById("puEspañol").classList.remove("noMostrar")
+          document.getElementById("puIngles").classList.remove("mostrar")
+          document.getElementById("puEspañol1").classList.remove("noMostrar")
+          document.getElementById("puIngles1").classList.remove("mostrar")
+          document.getElementById("puEspañol2").classList.remove("noMostrar")
+          document.getElementById("puIngles2").classList.remove("mostrar")
+          document.querySelector(".txtMobile").src="3.3 ÚLTIMA MILLA/texto-pagina.png"
+          modoIngles = "espanol";
+          localStorage.setItem('traduccion', modoIngles)
+          variableLocal= localStorage.getItem('traduccion', modoIngles)
+          console.log(variableLocal)
+      
+    }else{
+        console.log("esta en ingles")
+        btnIngles.textContent = "Español";
+          document.getElementById("navElectrico").textContent = "100% electric"
+          document.getElementById("navServicios").textContent = "Services"
+          document.getElementById("navTaller").textContent = "Workshop"
+          document.getElementById("navBoton").textContent = "Contact us"
+          document.getElementById("caEspañol").classList.add("noMostrar")
+          document.getElementById("caIngles").classList.add("mostrarFlex")
+          document.querySelector(".publicEspañol").classList.add("noMostrar")
+          document.querySelector(".publicIngles").classList.add("mostrar")
+          document.getElementById("puEspañol").classList.add("noMostrar")
+          document.getElementById("puIngles").classList.add("mostrar")
+          document.getElementById("puEspañol1").classList.add("noMostrar")
+          document.getElementById("puIngles1").classList.add("mostrar")
+          document.getElementById("puEspañol2").classList.add("noMostrar")
+          document.getElementById("puIngles2").classList.add("mostrar")
+          document.querySelector(".txtMobile").src="3.3 ÚLTIMA MILLA/pagina-nati1.png"
+          modoIngles = "ingles";
+          localStorage.setItem('traduccion', modoIngles)
+          variableLocal= localStorage.getItem('traduccion', modoIngles)
+          console.log(variableLocal)
+    }
+  }
 </script>
 </body>
 </html>

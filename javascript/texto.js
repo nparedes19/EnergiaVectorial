@@ -1,8 +1,8 @@
 /*pasar a ingles*/
 
 btnIngles = document.getElementById("ingles")
-
-
+modoIngles = "espanol"
+console.log(modoIngles)
 document.getElementById("deIngles").classList.add("noMostrar")
 document.getElementById("caIngles").classList.add("noMostrar")
 

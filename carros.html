@@ -643,9 +643,10 @@
 </script>
 <script>
   btnIngles = document.getElementById("ingles")
-  modoIngles = false
   btnIngles.addEventListener("click",e =>{
-      if (modoIngles===false){
+      modoIngles = localStorage.traduccion
+      console.log(modoIngles)
+      if (modoIngles==="espanol"){
           btnIngles.textContent = "Español";
           document.getElementById("navElectrico").textContent = "100% electric"
           document.getElementById("navServicios").textContent = "Services"
@@ -686,7 +687,10 @@
           document.querySelector(".btnTabla").textContent = "Click here"
           document.getElementById("tablaMobileEspañol").classList.add("noMostrar")
           document.getElementById("tablaMobileIngles").classList.add("mostrar")
-          modoIngles = true;
+          modoIngles = "ingles";
+          localStorage.setItem('traduccion', modoIngles)
+          variableLocal= localStorage.getItem('traduccion', modoIngles)
+          console.log(variableLocal)
       }else{
           btnIngles.textContent = "Inglés";
           document.getElementById("navElectrico").textContent = "100% eléctrico"
@@ -731,9 +735,114 @@
           document.querySelector(".btnTabla").textContent = "Click aquí"
           document.getElementById("tablaMobileEspañol").classList.remove("noMostrar")
           document.getElementById("tablaMobileIngles").classList.remove("mostrar")
-          modoIngles = false;
+          modoIngles = "espanol";
+          localStorage.setItem('traduccion', modoIngles)
+          variableLocal= localStorage.getItem('traduccion', modoIngles)
+          console.log(variableLocal)
       }
 })
+
+document.body.onload = function() {
+  console.log("esta en español")
+    let modoIngles = localStorage.traduccion
+    if (modoIngles==="espanol"){
+      btnIngles.textContent = "Inglés";
+          document.getElementById("navElectrico").textContent = "100% eléctrico"
+          document.getElementById("navServicios").textContent = "Servicios"
+          document.getElementById("navTaller").textContent = "Taller"
+          document.getElementById("navBoton").textContent = "Contáctenos"
+          document.getElementById("btnCita").textContent = "Click aquí"
+          document.getElementById("howEspañol").classList.remove("noMostrar")
+          document.getElementById("howIngles").classList.remove("mostrarFlex")
+          document.getElementById("caEspañol").classList.remove("noMostrar")
+          document.getElementById("caIngles").classList.remove("mostrar")
+          document.getElementById("loEspañol").classList.remove("noMostrar")
+          document.getElementById("loIngles").classList.remove("mostrar")
+          document.getElementById("siEspañol").classList.remove("noMostrar")
+          document.getElementById("siIngles").classList.remove("mostrar")
+          document.getElementById("boxCoEspañol").classList.remove("noMostrar")
+          document.getElementById("boxCoIngles").classList.remove("mostrarGrid")
+          document.getElementById("boxCoEspañol").classList.remove("noMostrar")
+          document.getElementById("boxCoIngles").classList.remove("mostrarGrid")
+          document.getElementById("boxCoIngles").classList.add("noMostrar")
+          document.getElementById("citaCarroIngles").classList.remove("mostrarFlex")
+          document.getElementById("citaCarro").classList.remove("noMostrar")
+          document.querySelector(".vehiculoIngles").classList.remove("mostrarGrid")
+          document.querySelector(".vehiculoEspañol").classList.remove("noMostrar")
+          document.querySelector(".vehiculoIngles").classList.add("noMostrar")
+          document.getElementById("beneEspañol").classList.remove("noMostrar")
+          document.getElementById("beneIngles").classList.remove("mostrarFlex")
+          document.getElementById("beneEspañol1").classList.remove("noMostrar")
+          document.getElementById("beneIngles1").classList.remove("mostrar")
+          document.getElementById("beneEspañol2").classList.remove("noMostrar")
+          document.getElementById("beneIngles2").classList.remove("mostrar")
+          document.getElementById("beneEspañol3").classList.remove("noMostrar")
+          document.getElementById("beneIngles3").classList.remove("mostrar")
+          document.getElementById("beneEspañol4").classList.remove("noMostrar")
+          document.getElementById("beneIngles4").classList.remove("mostrar")
+          document.getElementById("beneEspañol5").classList.remove("noMostrar")
+          document.getElementById("beneIngles5").classList.remove("mostrar")
+          document.getElementById("tablaEspañol").classList.remove("noMostrar")
+          document.getElementById("tablaIngles").classList.remove("mostrar")
+          document.querySelector(".cotizaEspañol").classList.remove("noMostrar")
+          document.querySelector(".cotizaIngles").classList.remove("mostrar")
+          document.querySelector(".btnTabla").textContent = "Click aquí"
+          document.getElementById("tablaMobileEspañol").classList.remove("noMostrar")
+          document.getElementById("tablaMobileIngles").classList.remove("mostrar")
+          modoIngles = "espanol";
+          localStorage.setItem('traduccion', modoIngles)
+          variableLocal= localStorage.getItem('traduccion', modoIngles)
+          console.log(variableLocal)
+      
+    }else{
+        console.log("esta en ingles")
+        btnIngles.textContent = "Español";
+          document.getElementById("navElectrico").textContent = "100% electric"
+          document.getElementById("navServicios").textContent = "Services"
+          document.getElementById("navTaller").textContent = "Workshop"
+          document.getElementById("navBoton").textContent = "Contact us"
+          document.getElementById("howEspañol").classList.add("noMostrar")
+          document.getElementById("howIngles").classList.add("mostrarFlex")
+          document.getElementById("caEspañol").classList.add("noMostrar")
+          document.getElementById("caIngles").classList.add("mostrar")
+          document.getElementById("loEspañol").classList.add("noMostrar")
+          document.getElementById("loIngles").classList.add("mostrar")
+          document.getElementById("siEspañol").classList.add("noMostrar")
+          document.getElementById("siIngles").classList.add("mostrar")
+          document.getElementById("boxCoEspañol").classList.add("noMostrar")
+          document.getElementById("boxCoIngles").classList.add("mostrarGrid")
+          document.getElementById("boxCoIngles").classList.remove("noMostrar")
+          document.getElementById("citaCarroIngles").classList.add("mostrarFlex")
+          document.getElementById("citaCarro").classList.add("noMostrar")
+          document.querySelector(".vehiculoIngles").classList.add("mostrarGrid")
+          document.querySelector(".vehiculoEspañol").classList.add("noMostrar")
+          document.querySelector(".vehiculoIngles").classList.remove("noMostrar")
+          document.getElementById("beneEspañol").classList.add("noMostrar")
+          document.getElementById("beneIngles").classList.add("mostrarFlex")
+          document.getElementById("beneEspañol1").classList.add("noMostrar")
+          document.getElementById("beneIngles1").classList.add("mostrar")
+          document.getElementById("beneEspañol2").classList.add("noMostrar")
+          document.getElementById("beneIngles2").classList.add("mostrar")
+          document.getElementById("beneEspañol3").classList.add("noMostrar")
+          document.getElementById("beneIngles3").classList.add("mostrar")
+          document.getElementById("beneEspañol4").classList.add("noMostrar")
+          document.getElementById("beneIngles4").classList.add("mostrar")
+          document.getElementById("beneEspañol5").classList.add("noMostrar")
+          document.getElementById("beneIngles5").classList.add("mostrar")
+          document.getElementById("tablaEspañol").classList.add("noMostrar")
+          document.getElementById("tablaIngles").classList.add("mostrar")
+          document.querySelector(".cotizaEspañol").classList.add("noMostrar")
+          document.querySelector(".cotizaIngles").classList.add("mostrar")
+          document.querySelector(".btnTabla").textContent = "Click here"
+          document.getElementById("tablaMobileEspañol").classList.add("noMostrar")
+          document.getElementById("tablaMobileIngles").classList.add("mostrar")
+          modoIngles = "ingles";
+          localStorage.setItem('traduccion', modoIngles)
+          variableLocal= localStorage.getItem('traduccion', modoIngles)
+          console.log(variableLocal)
+    }
+  }
 </script>
+
 </body>
 </html>
