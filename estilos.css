@@ -1751,6 +1751,11 @@ footer{
 
     /*navbar*/
 
+    .myButton {
+        font-size: 25px;
+        height: 50px;
+    }
+
     #navElectrico{
         width: 250px;
     }
