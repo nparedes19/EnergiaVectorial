@@ -10,7 +10,7 @@ btnIngles.addEventListener("click",e =>{
         document.getElementById("navBoton").textContent = "Contact us"
         modoIngles = true;
     }else{
-        btnIngles.textContent = "Ingles";
+        btnIngles.textContent = "Inglés";
         document.getElementById("navElectrico").textContent = "100% eléctrico"
         document.getElementById("navServicios").textContent = "Servicios"
         document.getElementById("navTaller").textContent = "Taller"

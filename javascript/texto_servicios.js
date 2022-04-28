@@ -32,7 +32,7 @@ btnIngles.addEventListener("click",e =>{
         document.querySelector(".seIngles").classList.add("mostrar")
         modoIngles = true;
     }else{
-        btnIngles.textContent = "Ingles";
+        btnIngles.textContent = "Inglés";
         document.getElementById("navElectrico").textContent = "100% eléctrico"
         document.getElementById("navServicios").textContent = "Servicios"
         document.getElementById("navTaller").textContent = "Taller"

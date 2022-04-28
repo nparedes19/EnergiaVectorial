@@ -50,7 +50,7 @@ btnIngles.addEventListener("click",e =>{
         document.querySelector(".btnCambioMobileHome").textContent = "Click here"
         modoIngles = true;
     }else{
-        btnIngles.textContent = "Ingles";
+        btnIngles.textContent = "Inglés";
         document.querySelector(".txtMobile").src="3.3 ÚLTIMA MILLA/texto-pagina.png"
         document.querySelector(".cEspañol").src="1. HOME/FOTO_CAR_INICIO.png"
         document.getElementById("deEspañol").classList.add("mostrar")

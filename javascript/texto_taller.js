@@ -25,7 +25,7 @@ btnIngles.addEventListener("click",e =>{
         document.querySelector(".tIngles5").classList.add("mostrar")
         modoIngles = true;
     }else{
-        btnIngles.textContent = "Ingles";
+        btnIngles.textContent = "Inglés";
         document.querySelector(".bateriaMobile").src="4. TALLER/BATERIA-TALLER-MOBIL.png"
         document.querySelector(".imgBateria").src="4. TALLER/BATERIA-TALLER.png"
         document.getElementById("navElectrico").textContent = "100% eléctrico"

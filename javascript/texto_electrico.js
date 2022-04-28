@@ -33,7 +33,7 @@ btnIngles.addEventListener("click",e =>{
         document.getElementById("btnConoceElec").textContent = "Click here"
         modoIngles = true;
     }else{
-        btnIngles.textContent = "Ingles";
+        btnIngles.textContent = "Inglés";
         document.querySelector(".cEspañol").src="2. 100_ ELÉCTRICO/FOTO-BMW.png"
         document.getElementById("navElectrico").textContent = "100% eléctrico"
         document.getElementById("navServicios").textContent = "Servicios"
