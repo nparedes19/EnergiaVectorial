@@ -224,10 +224,10 @@
         <form id="login" onsubmit="process(event)">
           <div id="formulario">
             <div class="boxInput">
-              <input class="suscribirse" id="sub" type="email" placeholder="Email" name="email">
+              <input class="suscribirse" id="sub" type="email" placeholder="Email" name="email" required>
               <img src="MENU/ICON-SIMBOLO-EV.png" alt="icono-energiavectorial" class="evMobile">
             </div>
-            <select class="suscribirse" name="pais" id="pais">
+            <select class="suscribirse" name="pais" id="pais" required>
               <option value="Elegir" id="AF">Elige tu país</option>
               <option value="Afganistán +93" id="Afganistán">Afganistán</option>
               <option value="Albania +355" id="AL">Albania</option>
@@ -432,10 +432,10 @@
               <option value="Zambia +260" id="ZM">Zambia</option>
               <option value="Zimbabue +263" id="ZW">Zimbabue</option>
               </select>
-            <input class="suscribirse" id="phone" type="tel" placeholder="Phone" name="phone"/>
+            <input class="suscribirse" id="phone" type="tel" placeholder="Phone" name="phone" required/>
             <input type="submit" class="myButton2" value="Suscribirse" id="button" />
           </div>
-          <input type="checkbox" id="cbox" name="checkbox" value="Se acepta Política de Tratamiento de Datos y Protección de Datos Personales"> <label for="cbox" id="cboxP">Al checkear este campo estas aceptando la política de tratamiento de datos y protección de datos personales</label>
+          <input type="checkbox" id="cbox" name="checkbox" value="Se acepta Política de Tratamiento de Datos y Protección de Datos Personales" required> <label for="cbox" id="cboxP">Al checkear este campo estas aceptando la política de tratamiento de datos y protección de datos personales</label>
         </form>
         <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
