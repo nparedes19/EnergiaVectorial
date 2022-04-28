@@ -2,6 +2,7 @@ btnIngles = document.getElementById("ingles")
 modoIngles = false
 
 btnIngles.addEventListener("click",e =>{
+        
     if (modoIngles===false){
         btnIngles.textContent = "Español";
         document.querySelector(".cEspañol").src="2. 100_ ELÉCTRICO/FOTO-BMWingles.png"
@@ -64,3 +65,12 @@ btnIngles.addEventListener("click",e =>{
         modoIngles = false;
     }
 })
+
+document.body.onload = function() {
+    console.log(modoIngles)
+    if (modoIngles==false){
+        console.log("esta en español")
+    }else{
+        console.log("esta en ingles")
+    }
+  }
