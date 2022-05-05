@@ -1,5 +1,9 @@
 /*modo ingles*/
 
+.contenedorServ a:hover{
+    color:#00cc71;
+}
+
 #caIngles #numeroNuevo{
     width: 230px;
 }
@@ -136,18 +140,18 @@
 
 .logo{
     width: 200px;
-    height: fit-content; 
+    height: auto; 
     margin-left: 59px;
 }
 
 .logo{
     width: 200px;
-    height: fit-content; 
+    height: auto; 
     margin-left: 59px;
 }
 
 #navElectrico{
-    width: 200px;
+    width: 12vw;
 }
 
 /*main*/
@@ -168,7 +172,7 @@
 
 .carroInicio{
     width: 100%;
-    height: fit-content; 
+    height: auto; 
  
 }
 
@@ -209,12 +213,12 @@
 .pCambio{
     font-family: 'Raleway', sans-serif; 
     font-weight: bold;
-    font-size: 1.6vw;
+    font-size: 25px;
 }
 
 
 #textoReduce{
-    font-size:5.2vw;
+    font-size:81px;
     font-family: 'Space Grotesk', sans-serif;
     margin-left: -0.4em;
     margin-top: -0.5em;
@@ -250,7 +254,7 @@
 	cursor:pointer;
 	color:black;
     font-family: 'Raleway', sans-serif;
-	font-size:1.4vw;
+	font-size:22.2px;
 	padding:6px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #000000;
@@ -337,7 +341,7 @@
 }
 
 #cambioInicio{
-    font-size: 3.5vw;
+    font-size: 54px;
     margin-top: 0.7em;
     margin-right: 5vw;
     width: 500px;
@@ -353,7 +357,7 @@
 }
 
 #numeroNuevo{
-    font-size: 5.3vw;
+    font-size: 80px;
     margin-top: 10px;
 }
 
@@ -361,14 +365,14 @@
     margin-top: 25px;
     width: 230px;
     margin-top: 30px;
-    font-size: 1.5vw;
+    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
 
 }
 
 #entreNuevo{
-    font-size: 1.5vw; 
+    font-size: 20px; 
 }
 
 .cambioNuevo{
@@ -386,7 +390,7 @@
 }
 
 #siempreNuevo{
-    font-size: 1vw; 
+    font-size: 15px; 
     text-align: right;
     font-weight: 300;
     width: 230px;
@@ -429,7 +433,7 @@
 
 .carroMercedes{
     width: 35%;
-    height: fit-content;
+    height: auto;
 }
 
 #txtSabemos{
@@ -512,7 +516,7 @@
 
 .burbujaTexto{
     width: 7em;
-    height: fit-content;
+    height: auto;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -546,12 +550,12 @@
 
 .divClientes{
     width: 100%;
-    height: 43em;
+    height: 44vw;
 }
 
 .logoAliado{
     height: 10em;
-    width: fit-content;
+    width: auto;
 }
 
 #textoAliados{
@@ -634,7 +638,7 @@
 
 .icono{
     width: 2.5em;
-    height: fit-content;
+    height: auto;
 }
 
 .divIcono{
@@ -664,7 +668,7 @@ footer{
 
 .iconoRedes{
     width: 6em;
-    height: fit-content;
+    height: auto;
 }
 
 #linkedin{
@@ -724,7 +728,7 @@ footer{
 
 .imagenBMW{
     width: 100%;
-    height: fit-content;
+    height: auto;
 }
 
 .iconoEcosistema{
@@ -767,7 +771,7 @@ footer{
 
 .fotoTeam{
     width: 10em;
-    height: fit-content;
+    height: auto;
 }
 
 #gridTeam p{
@@ -882,7 +886,7 @@ footer{
 
 .imgBateria{
     width: 100%;
-    height: fit-content;
+    height: auto;
     margin-top: 3em;
 }
 
@@ -896,7 +900,7 @@ footer{
 
 .bateria{
     width: 50%;
-    height: fit-content;
+    height: auto;
 }
 
 .textoTaller{
@@ -992,7 +996,7 @@ footer{
 
 .imagenServicios{
     width: 100%;
-    height: fit-content;
+    height: auto;
     padding-bottom: 1.5em;
 }
 
@@ -1102,7 +1106,7 @@ footer{
 
 .imgCarro{
     width: 100%;
-    height: fit-content;
+    height: auto;
 }
 
 .primerContainer{
@@ -1160,7 +1164,7 @@ footer{
 .containerKit{
     background-color: #f2f2f2;
     width: 50%;
-    height: 40em;
+    height: 40.5vw;
 
 }
 
@@ -1238,7 +1242,7 @@ footer{
 
 .imgMedia{
     width: 50%;
-    height: fit-content;
+    height: auto;
 }
 
 #tituloVe{
@@ -1274,7 +1278,7 @@ footer{
 
 .iconBene{
     width: 20em;
-    height: fit-content;
+    height: auto;
 }
 
 .pBene{
@@ -1520,7 +1524,7 @@ footer{
 
 .mCargador{
     width: 50%;
-    height: fit-content;
+    height: auto;
 }
 
 .boxHogar{
@@ -1743,7 +1747,7 @@ footer{
 /*mobile*/
 
 
-@media screen and (max-width:450px){
+@media screen and (max-width:1000px){
 
     #inglesMilla{
         display: none !important;
