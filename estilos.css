@@ -1,3 +1,88 @@
+/*modo ingles*/
+
+.contenedorServ a:hover{
+    color:#00cc71;
+}
+
+#caIngles #numeroNuevo{
+    width: 230px;
+}
+
+#cajaMobileTabla{
+    display: none;
+}
+
+#mobileBoxIngles{
+    display: none;
+}
+
+.mostrarTabla{
+    display: table-cell;
+}
+
+.mostrarGrid{
+    display: grid;
+}
+
+#howIngles{
+    font-size: 3.6vw;
+}
+
+
+.cambioMobileIngles #textoSem{
+    font-size: 26.5px;
+}
+
+.sabemosIngles{
+    font-size: 55px!important;
+    margin-bottom: 20px;
+}
+
+#caIngles #textoHuella{
+    font-size: 20.5px;
+}
+
+#caIngles #año{
+    font-size: 20.5px;
+    margin-top: -2em;
+    margin-left: 7em;
+}
+
+#caIngles #lineaNueva{
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
+#caIngles .nuevoBox{
+    margin-top: 1.5em;
+}
+
+#caIngles #numeroNuevo{
+    margin-top: 30px;
+}
+
+#caIngles #siempreNuevo{
+    margin-left: -2.1em;
+}
+
+.españolCambio{
+    display: flex;
+    margin-left: 12vw;
+    padding-top: 20px;
+}
+
+.noMostrar{
+    display: none!important;
+}
+
+.mostrar{
+    display: block!important;
+}
+
+.mostrarFlex{
+    display: flex!important;
+}
+
 /*bara de navegación*/
 
 .myButton:hover{
@@ -14,7 +99,7 @@
 
 .nav-link{
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 150%;
+    font-size: 1.5vw;
     font-weight: bold;
 }
 
@@ -44,29 +129,29 @@
 	cursor:pointer;
 	color:#ffffff;
     font-family: 'Raleway', sans-serif;
-    font-size: 23px;
+    font-size: 1.5vw;
 	padding:5px 18px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2f6627;
     font-weight: bold;
-    height: 50px;
+    height: 3.2vw;
 
 }
 
 .logo{
     width: 200px;
-    height: fit-content; 
+    height: auto; 
     margin-left: 59px;
 }
 
 .logo{
     width: 200px;
-    height: fit-content; 
+    height: auto; 
     margin-left: 59px;
 }
 
 #navElectrico{
-    width: 200px;
+    width: 12vw;
 }
 
 /*main*/
@@ -87,7 +172,7 @@
 
 .carroInicio{
     width: 100%;
-    height: fit-content; 
+    height: auto; 
  
 }
 
@@ -97,7 +182,7 @@
     place-content: center;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;
-    font-size:70px;
+    font-size:5vw;
 }
 
 .divCambio{
@@ -122,7 +207,7 @@
 }
 
 #btnCambioHome{
-    margin-left: 16.7em;
+    margin-left: 13.3em;
 }
 
 .pCambio{
@@ -133,7 +218,7 @@
 
 
 #textoReduce{
-    font-size: 80px;
+    font-size:81px;
     font-family: 'Space Grotesk', sans-serif;
     margin-left: -0.4em;
     margin-top: -0.5em;
@@ -169,7 +254,7 @@
 	cursor:pointer;
 	color:black;
     font-family: 'Raleway', sans-serif;
-	font-size:22px;
+	font-size:22.2px;
 	padding:6px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #000000;
@@ -231,12 +316,12 @@
 	cursor:pointer;
 	color:white;
     font-family: 'Raleway', sans-serif;
-	font-size:22px;
+	font-size:1.5vw;
 	padding:6px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #000000;
     font-weight: bold;
-    height: 50px;
+    height: 3.5vw;
     margin-left: 1em;
 }
 
@@ -249,17 +334,16 @@
 }
 
 .nuevo{
-    display: flex;
+    display: block;
     background-color: #001e00;
-    place-content: center;
+
     height: 15em;
 }
 
 #cambioInicio{
-    font-size: 55px;
-    margin-left: 1em;
+    font-size: 54px;
     margin-top: 0.7em;
-    margin-right: 3em;
+    margin-right: 5vw;
     width: 500px;
 }
 
@@ -294,14 +378,14 @@
 .cambioNuevo{
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 2em;
+    margin-left: 0.4vw;
     width: 15em;
 }
 
 #lineaNueva{
-    margin-left: 6em;
-    margin-right: 0.5em;
-    margin-top: 2.5em;
+    margin-left: 5vw;
+    margin-right: 2vw;
+    margin-top: 2em;
     height: 150px;
 }
 
@@ -343,22 +427,22 @@
 .textoConoce{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;
-    font-size:40px;
+    font-size:2.5vw;
     color: #00cc71;
 }
 
 .carroMercedes{
     width: 35%;
-    height: fit-content;
+    height: auto;
 }
 
 #txtSabemos{
-    font-size: 60px;
+    font-size: 3vw;
 }
 
 #txtDisminuimos{
     line-height: 100%;
-    font-size: 35px;
+    font-size: 2vw;
     width: 80%;
 
 }
@@ -410,15 +494,16 @@
 .parrafoClientes{
     font-family: 'Space Grotesk', sans-serif;
     color: #00cc71;
-    font-size:3.2em;
+    font-size:3.3vw;
     place-content: center;
     display: flex;
+    padding-top: 60px;
 }
 
 .textoMovilidad{
     font-family: 'Space Grotesk', sans-serif;
     color: #00cc71;
-    font-size:3.9em;
+    font-size:3.5vw;
     place-content: center;
     display: flex;
     font-weight: bold;
@@ -431,7 +516,7 @@
 
 .burbujaTexto{
     width: 7em;
-    height: fit-content;
+    height: auto;
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -442,7 +527,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight:bold;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.6vw;
     place-content: center;
     display: flex;
     margin-top: 2em;
@@ -451,7 +536,7 @@
 .contenidoTestimonio{
     font-family: 'Raleway', sans-serif;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.6vw;
     width: 500px;
     margin: auto;
     display: flex;
@@ -465,12 +550,12 @@
 
 .divClientes{
     width: 100%;
-    height: 43em;
+    height: 44vw;
 }
 
 .logoAliado{
     height: 10em;
-    width: fit-content;
+    width: auto;
 }
 
 #textoAliados{
@@ -483,6 +568,47 @@
 }
 
 /*footer*/
+
+#cboxP{
+    color:white;
+    
+}
+
+#cbox{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.iconoEV{
+    margin-left: 85px;
+}
+
+#pais{
+    width: 300px;
+    margin-left: -0.4em;
+}
+
+#phone{
+    width: 300px;
+    margin-left: -0.4em;
+    margin-right: 0.6em;
+}
+
+#login{
+    
+}
+
+#formulario{
+    display: flex;
+    padding-top: 30px;
+}
+
+#phone{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
 
 .boxInput{
     display: flex;
@@ -512,7 +638,7 @@
 
 .icono{
     width: 2.5em;
-    height: fit-content;
+    height: auto;
 }
 
 .divIcono{
@@ -542,12 +668,12 @@ footer{
 
 .iconoRedes{
     width: 6em;
-    height: fit-content;
+    height: auto;
 }
 
 #linkedin{
     width: 3em;
-    height: fit-content;
+    height: auto;
     margin-left: -1em;
 }
 
@@ -602,12 +728,12 @@ footer{
 
 .imagenBMW{
     width: 100%;
-    height: fit-content;
+    height: auto;
 }
 
 .iconoEcosistema{
     width: 9em;
-    height: fit-content;
+    height: auto;
     display: flex;
     place-content: center;
     margin-right: auto;
@@ -645,7 +771,7 @@ footer{
 
 .fotoTeam{
     width: 10em;
-    height: fit-content;
+    height: auto;
 }
 
 #gridTeam p{
@@ -760,7 +886,7 @@ footer{
 
 .imgBateria{
     width: 100%;
-    height: fit-content;
+    height: auto;
     margin-top: 3em;
 }
 
@@ -774,7 +900,7 @@ footer{
 
 .bateria{
     width: 50%;
-    height: fit-content;
+    height: auto;
 }
 
 .textoTaller{
@@ -788,7 +914,7 @@ footer{
 .tituloTaller{
     font-family: 'Raleway', sans-serif;
     font-weight: bold; 
-    font-size: 25px;
+    font-size: 1.8vw;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -797,13 +923,13 @@ footer{
 
 .parrafoTaller{
     font-family: 'Raleway', sans-serif; 
-    font-size: 25px;
+    font-size: 1.8vw;
     display: flex;
     text-align: center;
     justify-content: center;
     margin-top: -0.5em;
     line-height: 100%;
-    width: 650px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -857,6 +983,7 @@ footer{
 
 .contenedorServ a{
     text-decoration: none;
+    color: white;
     
 }
 
@@ -869,7 +996,7 @@ footer{
 
 .imagenServicios{
     width: 100%;
-    height: fit-content;
+    height: auto;
     padding-bottom: 1.5em;
 }
 
@@ -939,6 +1066,10 @@ footer{
 
 /*super carros*/
 
+#mobileContainer{
+    display: none;
+}
+
 #escaMobile{
     display: none;
 }
@@ -975,7 +1106,7 @@ footer{
 
 .imgCarro{
     width: 100%;
-    height: fit-content;
+    height: auto;
 }
 
 .primerContainer{
@@ -988,7 +1119,7 @@ footer{
 .tituloComparativo{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bold; 
-    font-size: 300%;
+    font-size: 3vw;
     color: white;
     width: 500px;
     text-align: center;
@@ -1000,17 +1131,17 @@ footer{
 
 .tituloTabla{
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 20px;
+    font-size: 1.3vw;
 }
 
 .fila{
-    font-size: 150%;
+    font-size: 1.4vw;
     font-family: 'Raleway', sans-serif; 
 }
 
 #tablaServicios td{
     font-family: 'Raleway', sans-serif; 
-    font-size: 150%;
+    font-size: 1.4vw;
 }
 
 #autonomia{
@@ -1033,13 +1164,13 @@ footer{
 .containerKit{
     background-color: #f2f2f2;
     width: 50%;
-    height: 40em;
+    height: 40.5vw;
 
 }
 
 .number{
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 90px;
+    font-size: 6vw;
     font-weight: bold;
     color: #00cc71;
     
@@ -1047,7 +1178,7 @@ footer{
 
 .tituloKit{
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: bold;
     color: #00cc71;
     padding-top: 0.8em;
@@ -1060,7 +1191,7 @@ footer{
 
 .pSegundo{
     font-family: 'Raleway', sans-serif;
-    font-size: 30px; 
+    font-size: 2vw; 
     line-height: 100%;
     margin-top: 0.5em; 
     width: 19em; 
@@ -1068,7 +1199,7 @@ footer{
 
 .nSegundo{
     font-family: 'Raleway', sans-serif;
-    font-size: 30px; 
+    font-size: 2vw; 
     font-weight: bold;
     margin-top: -1em;
 }
@@ -1076,7 +1207,7 @@ footer{
 .tituloCon{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;  
-    font-size: 60px;
+    font-size: 4vw;
     color: white;
    
 }
@@ -1111,7 +1242,7 @@ footer{
 
 .imgMedia{
     width: 50%;
-    height: fit-content;
+    height: auto;
 }
 
 #tituloVe{
@@ -1119,6 +1250,7 @@ footer{
     color: #00cc71;
     margin-left: auto;
     margin-right: auto;
+    font-size: 3.7vw;
 }
 
 #boxVe{
@@ -1146,7 +1278,7 @@ footer{
 
 .iconBene{
     width: 20em;
-    height: fit-content;
+    height: auto;
 }
 
 .pBene{
@@ -1168,6 +1300,18 @@ footer{
 
 
 /*ultima milla*/
+
+#millaNuevo{
+    background-color: #00cc71;
+}
+
+#millaNuevo p{
+    color: black;
+}
+
+#millaNuevo #textoHuella{
+    margin-top: 25px;
+}
 
 #nuevoNumero{
     margin-left: 20em;
@@ -1223,7 +1367,7 @@ footer{
 .tituloMilla{
     font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;  
-    font-size: 55px;
+    font-size: 52px;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -1244,9 +1388,17 @@ footer{
 
 /*publico*/
 
-#nuevoPublico{
+#publicoNuevo{
     background-color: #00cc71;
 }
+
+#publicoNuevo p{
+   color: black;
+}
+
+#publicoNuevo #lineaNueva{
+    border-left: solid 4px black;
+ }
 
 #nuevoPublico p{
     color:black;
@@ -1329,7 +1481,7 @@ footer{
 
 .divRecarga h1{
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 660%;
+    font-size: 6.7vw;
     font-weight: bold;
     color: #00cc71;
    
@@ -1337,8 +1489,8 @@ footer{
 
 .divRecarga p{
     font-family: 'Raleway', sans-serif;
-    font-size: 300%;
-    width: 70%;
+    font-size: 2.9vw;
+    width: 90%;
     line-height: 100%;
 }
 
@@ -1372,7 +1524,7 @@ footer{
 
 .mCargador{
     width: 50%;
-    height: fit-content;
+    height: auto;
 }
 
 .boxHogar{
@@ -1390,7 +1542,7 @@ footer{
 
 .pHogar{
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-size: 2.2vw;
     width: 27em;
     line-height: 100%;
 }
@@ -1429,7 +1581,7 @@ footer{
 .txtCargador{
   color: white;
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 40px;
+  font-size: 2.6vw;
   font-weight: bold;
   width: 65%;
   display: flex;
@@ -1471,7 +1623,7 @@ footer{
 
 .iconCarga{
     width: 8em;
-    height: fit-content;
+    height: auto;
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
@@ -1572,13 +1724,13 @@ footer{
 
 .txtLiviano{
     font-family: 'Raleway', sans-serif;
-    font-size: 23px;
+    font-size: 1.3vw;
     font-weight: bold;
 }
 
 .txtLiviano2{
     font-family: 'Raleway', sans-serif;
-    font-size: 23px;
+    font-size: 1.3vw;
     line-height: 100%;
     width: 96%;
     margin-top: -1em;
@@ -1595,9 +1747,18 @@ footer{
 /*mobile*/
 
 
-@media screen and (max-width:450px){
+@media screen and (max-width:1000px){
+
+    #inglesMilla{
+        display: none !important;
+    }
 
     /*navbar*/
+
+    .myButton {
+        font-size: 25px;
+        height: 50px;
+    }
 
     #navElectrico{
         width: 250px;
@@ -1623,7 +1784,7 @@ footer{
     
     .logo{
         width: 160px;
-        height: fit-content;
+        height: auto;
         margin-left: 1.5em;
     }
     
@@ -1645,7 +1806,7 @@ footer{
     .bateriaMobile{
         display: block;
         width: 100%;
-        height: fit-content;
+        height: auto;
         margin-top: 2em;
     }
     
@@ -1675,7 +1836,7 @@ footer{
     
     .bateria{
         width: 100%;
-        height: fit-content;
+        height: auto;
     }
     
     .tituloTaller{
@@ -1728,7 +1889,7 @@ footer{
     }
     
     #btnCita{
-        font-size: 18px;
+        font-size: 17px;
         width: 127px;
         height: 40px;
         margin-left: auto;
@@ -1737,8 +1898,22 @@ footer{
     
     /*footer*/
 
+    #cboxP{
+        width: 250px;
+        font-size: 9px;
+     
+    }
+
+    #cbox{
+      margin-left: 65px;
+      margin-bottom: 20px;
+    }
+    #formulario{
+        display: block;
+    }
+
     footer{
-        height: 40em;
+        height: 45em;
     }
     
     .iconoEV{
@@ -1750,6 +1925,36 @@ footer{
         width: 250px;
         height: 40px;
         font-size: 13px;
+    }
+
+    #pais{
+        display: flex;
+        width:250px;
+        height: 40px;
+        font-size: 13px;
+        margin-left: 4.2em;
+    }
+
+    .iti{
+
+        height: 40px;
+        font-size: 13px;
+        margin-top: 20px;
+        margin-left: 4.7em;
+
+    }
+
+    #button{
+        margin-top: 20px;
+        margin-left: 3.2em;
+        width: 250px;
+        height: 40px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    #phone{
+        width: 250px;
     }
     
     .divInput{
@@ -1769,7 +1974,7 @@ footer{
     
     .icono{
         width: 2em;
-        height: fit-content;
+        height: auto;
     
     }
     
@@ -1796,6 +2001,7 @@ footer{
     
     .iconoRedes{
         width: 4em;
+        height: auto;
         margin: 1em;
     }
     
@@ -1804,7 +2010,7 @@ footer{
     }
     
     .redes{
-       margin-left: 2em;
+       margin-left: 1.4em;
     }
     
     footer{
@@ -1826,6 +2032,7 @@ footer{
     
     .evMobile{
         width: 5em;
+        height: auto;
         margin-top: -1.1em;
         margin-left: -1em;
         display: block;
@@ -1845,13 +2052,12 @@ footer{
     .txtMobile{
         display: block;
         width: 100%;
-        height: fit-content;
     }
     
     .camionMobile{
         display: block;
         width: 100%;
-        height: fit-content;
+        height: auto;
         margin-top: 2em;
     }
     
@@ -1888,19 +2094,28 @@ footer{
     .millaMobile{
         display: block;
         background-color: #00cc71;
-        height: 50em;
-        margin-top: 9em;
+        height: 48em;
+        margin-top: 5em;
     }
     
     #tituloMillaMobile{
         display: block;
         font-size: 33px;
         color: black;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    #mobileMillaIngles{
+        height: 47em;
     }
     
     .pCambio{
         margin: 0;
         color: #000000;
+
     }
     
     #textoHuella{
@@ -1908,6 +2123,7 @@ footer{
         text-align: center;
         margin:0;
         margin-top:2em;
+        font-size: 25px;
     }
     
     #textoReduce{
@@ -1915,6 +2131,7 @@ footer{
         text-align: center; 
         margin:0;
         margin-top: -0.3em;
+        font-size: 55px;
     }
     
     #año{
@@ -1922,6 +2139,7 @@ footer{
         margin: 0;
         text-align: center;
         margin-top: -0.9em;
+        font-size: 25px;
     }
     
     .raya{
@@ -1939,6 +2157,7 @@ footer{
         margin: 0;
         text-align: center;
         margin-top: 1.5em;
+        font-size: 25px;
     }
 
     #textoSem{
@@ -1947,6 +2166,7 @@ footer{
         text-align: center;
         line-height: 100%;
         margin-top: -0.5em;
+        font-size: 25px;
     }
 
     #textoEq{
@@ -1974,6 +2194,8 @@ footer{
     #busMobile{
         display: block;
         margin-top: 2em;
+        width: 100%;
+        height: auto;
     }
 
     .container{
@@ -1988,7 +2210,10 @@ footer{
         display: block;
         font-size: 33px;
         color: black;
-        margin-top: 90px;
+        margin-top: 50px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #mobilePublico{
@@ -2028,7 +2253,7 @@ footer{
     .carroMobile{
         display: block;
         width: 100%;
-        height: fit-content;
+    
     }
 
     .carroInicio{
@@ -2048,7 +2273,6 @@ footer{
     .carroMercedesMobile{
         display: block;
         width: 100%;
-        height: fit-content;
     }
 
     .carroMercedes{
@@ -2061,8 +2285,16 @@ footer{
         margin-top: 50px;
     }
 
+    .sabemosIngles{
+        font-size: 30px!important; 
+    }
+
+    .movilidadIngles{
+        font-size: 32px!important;
+    }
+
     #txtDisminuimos{
-        font-size: 30px;
+        font-size: 25px;
         line-height: 100%;
         font-weight: 300;
         width: 90%;
@@ -2075,7 +2307,7 @@ footer{
 
     #conoceMobile{
         font-size: 25px;
-        height: 33px;
+        height: 80px;
     }
 
     #btnHomeMobile{
@@ -2130,6 +2362,7 @@ footer{
         width: 5em;
         margin-top: 4em;
         margin-bottom: 30px;
+        height: auto;
     }
 
     .tituloTestimonio{
@@ -2139,6 +2372,7 @@ footer{
         margin-right: auto;
         line-height: 100%;
         margin-top: -0.1px;
+        font-size: 23.5px;
     }
 
     .contenidoTestimonio{
@@ -2147,6 +2381,7 @@ footer{
         margin-left: auto;
         margin-right: auto;
         line-height: 100%;
+        font-size: 23.5px;
     }
 
     .containerTestimonios{
@@ -2170,7 +2405,7 @@ footer{
 
     .logoAliado{
         width: 80px;
-        height: fit-content;
+        height: auto;
         margin-top: auto;
         margin-bottom: auto;
     }
@@ -2188,7 +2423,7 @@ footer{
     .imagenBMWMobile{
         display: block;
         width: 100%;
-        height: fit-content;
+        height: auto;
     }
 
     .imagenBMW{
@@ -2281,6 +2516,7 @@ footer{
 
     .fotoTeam{
         width: 12em;
+        height: auto;
         display: flex;
         margin-right: auto;
         margin-left: auto;
@@ -2380,6 +2616,10 @@ footer{
 
     /*servicios*/
 
+    .contenedorServ a{
+        text-decoration-color:none;
+    }
+
     .serviciosMobile{
         display: block;
         background-color: #f2f2f2;
@@ -2389,7 +2629,7 @@ footer{
 
     .imagenServicios{
         width: 87%;
-  
+        height: auto;
     }
 
     .degradado{
@@ -2410,6 +2650,8 @@ footer{
 
     #cargadorMobile{
         display: block;
+        width: 100%;
+        height: auto;
     }
 
     #recargaMobile{
@@ -2460,11 +2702,12 @@ footer{
 
     .mujerMobile img{
         width: 100%;
+        height: auto;
     }
 
     #evMobile{
         width: 200px;
-        height: fit-content;
+        height: auto;
         display: flex;
         margin-left: auto;
         margin-right: auto;
@@ -2519,6 +2762,7 @@ footer{
 
     .mCargadorMobile{
         width: 100%;
+        height: auto;
     }
 
     .milla{
@@ -2617,6 +2861,7 @@ footer{
 
     .iconBene{
         width: 230px;
+        height: auto;
     }
 
     #tInsta{
@@ -2629,6 +2874,25 @@ footer{
 
     /*super carros*/
 
+    #cajaMobileTabla{
+        display: block;
+    }
+
+    #mobileContainer{
+        display: block;
+    }
+
+    #citaCarroIngles{
+        display: none !important;
+    }
+
+    #tablaIngles{
+        display: none !important;
+    }
+
+    #howIngles {
+        font-size: 37px;
+    }
     #filaKit p{
         font-family: 'Space Grotesk', sans-serif;
         background-color: white;
@@ -2663,6 +2927,8 @@ footer{
 
     #cooperMobile{
         display: block;
+        width: 100%;
+        height: auto;
     }
 
     .boxTable{
@@ -2702,6 +2968,7 @@ footer{
 
     .containerKit{
         width: 100%;
+        height: 42em;
     }
 
     .number{
@@ -2751,7 +3018,7 @@ footer{
 
     #escaMobile{
         width: 100%;
-        height: fit-content ;
+        height: auto ;
     }
 
     .txtCon{
@@ -2770,6 +3037,7 @@ footer{
         margin-right: auto;
         text-align: center;
         margin-top: -25px;
+        font-size: 29px;
     }
 
     #pVe{
@@ -2786,6 +3054,8 @@ footer{
 
     #escarabajoMobile{
         display: block;
+        width: 100%;
+        height: auto;
     }
 
     #escarabajoEscritorio{
@@ -2820,6 +3090,7 @@ footer{
 
     #kitMobile{
         margin-top: -1.5em;
+  
     }
 
     .txtCon p{
